@@ -1,0 +1,2054 @@
+
+  	<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/front/css/bootstrap.css" >
+	<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/front/css/style.css" >
+	
+    <link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/slick/slick_dup.css" type="text/css"/>
+
+    <link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/slick/slick-theme.css" type="text/css"/>
+  	<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/fullcalendar/fullcalendar.min.css" >
+  	<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/fullcalendar/fullcalendar.print.css" media="print">
+	
+	
+
+	<img class="background-body" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/background_kfes.jpg" width="100%"/>
+
+	<div class="container header" align="center">
+		<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/Korea_Fes_logo.png" width="300px" />
+		<br>
+		<br>
+	</div>
+
+	<style type="text/css">
+		/* 27/09/2018 */
+		.tab-content #event .section.section-content .col-content.content-detail .event-breadcumb .dropdown .dropdown-menu {
+		    left: 0;
+		    min-width: 300px;
+			padding: 10px 20px 20px;
+    		border-radius: 0;
+		}
+		.tab-content #event .section.section-content .col-content.content-detail .event-breadcumb .dropdown .dropdown-menu .group{
+			padding: 5px 0 5px 30px;
+    		position: relative;
+   		    margin: 10px 0 0;
+		}
+		.tab-content #event .section.section-content .col-content.content-detail .event-breadcumb .dropdown .dropdown-menu .group .square{
+			left: 0;
+		}
+		.tab-content #event .section.section-content .col-content.content-detail .event-breadcumb .dropdown .dropdown-menu a li {
+		    border-left: 1px solid black;
+		    margin-left: 30px;
+		}
+
+		@media(max-width: 414px){
+			.tab-content #event .section.section-content .col-content.content-detail .event-breadcumb .dropdown .dropdown-menu {
+			    left: -25px;
+			    max-height: 550px;
+			    overflow: scroll;
+			}
+			.tab-content #event .section.section-content .col-content.content-detail .event-breadcumb .dropdown .dropdown-menu .group .square{
+				left: 0;
+				top: 5px;
+				width: 20px;
+			    height: 20px;
+			}
+		}
+
+
+		/* 26/09/2018 */
+		.bg.bg-purple {
+		  background: #A4238E !important; }
+		.bg.bg-blue {
+		  background: #00AEEF !important; }
+		.fColor-purple {
+			color: #050635;
+		}
+
+		@media (min-width: 768px) {
+			p.desc b{
+				font-size: 16px !important; }
+		}
+
+		/* 25/09/2018 */
+		#header .utils .mall li > a {
+			font-weight: normal;
+		}
+		#quick .quick_imenus > li > a .badge b {
+			height: auto;
+			min-width: 22px;
+			padding-right: 8px;
+		}
+		.ham_menu > li a > .img_wrap {
+			line-height: 24px;
+		}
+		.cartegory_tit {
+			padding: 0;
+			margin: 15px 30px;
+			line-height: 48px;
+		}
+		.cartegory_tit a {
+			color: #222;
+		}
+		@media (max-width: 414px) {
+			.tab-content #event h1, .tab-content #event h2 {
+				text-align:left;
+				margin-bottom:10px;
+			} 
+			/* New */
+			.head-arial.main-head{
+              	font-family: 'Gotham';
+				font-size: 24px;
+				margin: 0;
+				margin-bottom: 10px;
+				padding-left: 45px;
+				position: relative;
+				text-align: left;
+			}
+			.head-arial.main-head .head-line{
+			    width: 35px;
+			    border-bottom: 6px solid black;
+			    position: absolute;
+			    background: black;
+			    left: 0;
+				top: 16px;
+			}
+		}
+	
+		.calendar-legend span.square, span.square{
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			left: -30px;
+			top: 0;
+		}
+		
+		.calendar-legend label{
+			margin-left: 30px;
+			margin-right: 10px;
+			position: relative;
+			vertical-align: text-bottom;
+			font-size: 16px;
+			font-family: 'DIN Regular';
+		}
+		
+
+		.fc-toolbar{
+			display: none;	
+		}
+		
+		@media(min-width: 768px){
+			.head-arial.main-head{
+              	font-family: 'Gotham';
+				font-size: 28px;
+				margin: 0;
+				margin-bottom: 10px;
+				padding-left: 95px;
+				position: relative;
+			}
+
+			.head-arial.main-head .head-line{
+			    width: 75px;
+			    border-bottom: 6px solid black;
+			    position: absolute;
+			    background: black;
+			    left: 0;
+			    top: 16px;
+			}
+
+			.section-calendar{
+				margin-top: 30px;
+			}
+
+			/*-- CALENDAR STYLE --*/
+				.calendar-legend{
+					text-align: right !important;
+					padding-top: 10px;
+				}
+
+
+				
+
+			/*-- CALENDAR STYLE --*/
+
+			.image-map{
+			    position: relative;
+			    left: -20px;
+			}
+		}
+
+		.event-label{
+			font-family: 'DIN Regular';
+			padding: 5px 10px;
+			color: white;
+			font-size: 14px;
+		}
+
+		.fc-day-grid-event>.fc-content{
+		    white-space: pre-wrap;
+		    overflow: hidden;
+		    text-align: center;
+		    padding: 5px 2.5px;
+		    font-weight: normal;
+		}
+		
+		.fc-ltr .fc-basic-view .fc-day-number{
+		    text-align: center;
+		    font-weight: bold;
+		    background: #ededed;
+		    border-top: 1px solid #dddddd;
+		    border-right: 1px solid #dddddd;
+		    border-left: 1px solid #dddddd;
+		}
+
+		.fc-event{
+			font-family: 'DIN Regular';
+			font-size: 1em;
+		    font-weight: 700;
+		}
+
+		th.fc-day-header.fc-widget-header {
+		    background: grey;
+		    color: white;
+		    text-transform: uppercase;
+		    border-color: grey;
+		    font-size: 1.25em;
+			padding: 5px;
+		}
+
+		.calendar-legend{
+			padding:20px 0 0;
+		}
+
+		.maps-legend-1{
+		    width: 130%;
+		    left: -20px;
+		    position: relative;
+		}
+
+		.maps-legend-2{
+			width: 125%;
+		    left: -10px;
+		    top: -15px;
+		    position: relative;
+		}
+
+		@media(max-width: 414px){
+			
+			.calendar-legend span.square, span.square{
+				width: 15px;
+				height: 15px;
+				left: -20px;
+			}
+		
+			.calendar-legend label{
+				margin-left: 20px;
+				font-size: 12px;
+				width: 32%;
+				text-align: left;
+			}
+		
+			.map-containerx{ margin:0 -30px; width:auto;}
+			.map-container-y .image-right{
+				margin-top: 80px!important;
+			}
+			
+			/* .head-arial.main-head{
+              	font-family: 'DIN Regular';
+			} */
+
+			.event-detail .heading{
+				font-family: 'Helvetica';
+			}
+
+			.fc-event{
+				font-family: 'DIN Regular';
+				font-size: 0.6em;
+			}
+
+			th.fc-day-header.fc-widget-header {
+				font-size: 1em;
+			}	
+
+		
+			.fc-ltr .fc-basic-view .fc-day-number{
+				font-size: 1em;
+			}		
+
+			.maps-legend-1{
+	    		width: 100%;
+			}
+
+			.maps-legend-2{
+			    width: 100%;
+			    left: unset;
+			    top: unset;
+			    position: relative;
+			}
+			.section-gallery .heading {
+				padding: 0 30px
+			}
+		}
+	</style>
+
+	<div class="container-fluid main clearfix" style="overflow: hidden;">
+		<div class="row">
+		  	<ul class="nav nav-tabs main-tabs" role="tablist">
+			    <li role="presentation" class="active"><a style="padding: 10px 4px;" href="#home" aria-controls="home" role="tab" data-toggle="tab"><b>HOME</b></a></li>
+			    <li role="presentation"><a style="padding: 10px 4px;" href="#event" aria-controls="event" role="tab" data-toggle="tab"><b>EVENT</b></a></li>
+			    <li role="presentation"><a style="padding: 10px 4px;" href="https://www.ilotte.com/ev/K-Pop-Concert/000001083/view.do"><b>K-POP CONCERT</b></a></li>
+			    <li role="presentation"><a style="padding: 10px 4px;" href="https://www.ilotte.com/promo-korean-sale-festa-travel-000000115330.do"><b>K-SALE FESTA</b></a></li>
+		  	</ul>
+		  	<div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="home">
+			    	<div class="col-xs-12 content no-pad">
+				    	<div class="col-xs-12 section section-banner">
+				    		<div class="col-xs-12 banner-slide no-pad" align="center">
+				    			<!-- -->
+				    			<div class="banner-slide-item" onclick="viewPost(1)" align="center">
+				    				<img class="bg-slider" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/slider1.jpg" width="100%">
+				    			</div>
+								<a href="https://www.ilotte.com/promo-korean-sale-festa-travel-000000115330.do">
+				    			<div class="banner-slide-item" align="center">
+				    				<img class="bg-slider" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/slider2.jpg" width="100%">
+				    			</div>
+								</a>
+				    			<div class="banner-slide-item" align="center">
+				    				<img class="bg-slider" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/slider3.jpg" width="100%">
+				    			</div>
+				    			<div class="banner-slide-item" align="center">
+				    				<img class="bg-slider" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/slider4.jpg" width="100%">
+				    			</div>
+				    			<div class="banner-slide-item" align="center">
+				    				<img class="bg-slider" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/slider0.jpg" width="100%">
+				    			</div>
+				    			<!-- -->
+				    		</div>
+				    	</div>
+
+				    	<div class="col-xs-12 section section-calendar">
+				    		<div class="col-xs-12 col-sm-5" align="left"> 
+				    			<h2 class="head-arial main-head"><span class="head-line"></span> EVENT CALENDAR</h2>
+				    		</div>
+			    			<div class="col-xs-12 col-sm-7 calendar-legend" align="center">
+			    				<label>
+				    				<span class="square" style="background: #ED1A3B;"></span> K-FOOD
+			    				</label>
+			    				<label>
+				    				<span class="square" style="background: #FBB040;"></span> K-CONTENT
+			    				</label>
+			    				<label>
+				    				<span class="square" style="background: #00AEEF;"></span> K-PERFORMANCE
+			    				</label>
+			    				<label>
+				    				<span class="square" style="background: #A4238E;"></span> K-EXHIBITION
+			    				</label>
+			    			</div>
+				    		<div class="col-xs-12 calendar" align="left">
+								<div class="fullcalendar"></div>
+				    		</div>
+				    	</div>
+
+				    	<div class="col-xs-12 section section-map">
+				    		<div class="col-xs-12 inner-section">
+				    			<div class="col-xs-12" align="left">
+				    				<h2 class="head-arial main-head"><span class="head-line"></span> JAKARTA EVENT MAP</h2>
+				    			</div>
+				    			<div class="col-xs-12">
+				    				<div class="col-xs-12 col-sm-8 no-pad map-containerx" >
+				    					<img class="image-map" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/eventmap.jpg" width="100%"/>
+				    				</div>
+		    						<div class="col-xs-12 col-sm-4 no-pad map-container-y">
+				    					<div class="col-xs-6 no-pad">
+				    						<img class="maps-legend-1" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/legend01-100N.jpg" width="100%"/>
+				    					</div>
+				    					<div class="col-xs-6 no-pad image-right" style="margin-top: 125px">
+				    						<img class="maps-legend-2" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/legend02N.jpg" width="100%"/>
+				    					</div>
+				    				</div>
+				    			</div>
+				    		</div>
+				    	</div>
+
+				    	<div class="col-xs-12 section section-gallery no-pad">
+				    		<div class="col-xs-12 outer-heading">
+				    			<div class="col-xs-12 heading">
+				    				<div class="col-xs-12 inner-heading" align="left">
+				    					<h2 class="head-arial main-head"><span class="head-line"></span>GALLERY</h2>
+				    				</div>
+				    			</div>
+				    		</div>
+				    		<div class="col-xs-12 thumnail-slide no-pad" align="center">
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(4)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/1.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(9)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/2.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(7)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/3.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(13)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/4.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(3)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/5.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(5)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/6.jpg" width="100%">
+				    				
+				    			</div>
+								<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(12)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/7.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(18)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/8.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(17)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/9.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(16)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/10.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(2)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/11.jpg" width="100%">
+				    				
+				    			</div>
+				    			<div class="col-xs-12 col-sm-3 thumnail-slide-list no-pad" onclick="viewPost(8)" style="cursor: pointer;">
+				    				<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/12.jpg" width="100%">
+				    				
+				    			</div>
+				    		</div>
+				    	</div>
+
+				    	<div class="col-xs-12 section section-event">
+				    		<div class="col-xs-12 event-header" align="left">
+				    			<h2 class="head-arial main-head"><span class="head-line"></span> EVENT LIST</h2>
+				    		</div>
+				    		<div class="col-xs-12 event-body">
+				    			
+				    			
+									<div class="col-xs-12 event-list-item">
+										<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+											<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+												<div class="col-xs-12 event-date-day" align="center">
+													4
+												</div>
+												<div class="col-xs-12 event-date-month" align="center">
+													OCT
+												</div>
+											</div>
+											<div class="col-sm-9 event-thumbnail-pic no-pad">
+												<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2B.jpg" width="100%"/>
+
+											</div>
+										</div>
+
+										<div class="col-xs-10 col-sm-8 event-item-caption">
+											<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(0)">
+												<label class="event-label bg bg-orange">K-CONTENT</label>
+												<h3 class="head-arial" style="margin-top:5px;">K-Content Expo - Business Networking</h3>
+												<h4 class="default"><b>VENUE: </b>Sheraton Grand Jakarta Gandaria City Hotel 3F Grand ballroom</h4>
+												<p class="default pad btm">40 Korean companies introduce their excellent cultural Content to buyer from Indonesia and ASEAN countries Program : 1:1 Biz-Matching / Networking Reception Content Fields: Broadcasting, Game & VR, Animation & Character</p>
+												<span class="btn-link">VIEW DETAIL  ></span>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-xs-12 event-list-item">
+										<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+											<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+												<div class="col-xs-12 event-date-day" align="center">
+													4
+												</div>
+												<div class="col-xs-12 event-date-month" align="center">
+													OCT
+												</div>
+											</div>
+											<div class="col-sm-9 event-thumbnail-pic no-pad">
+												<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2C.jpg" width="100%"/>
+
+											</div>
+										</div>
+
+										<div class="col-xs-10 col-sm-8 event-item-caption">
+											<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(1)">
+												<label class="event-label bg bg-orange">K-CONTENT</label>
+												<h3 class="head-arial" style="margin-top:5px;">K-Content Expo</h3>
+												<h4 class="default"><b>VENUE: </b>Mall Kota Kasablanka</h4>
+												<p class="default pad btm">Korea Creative Content Agency (KOCCA) proudly presents qualified Korean broadcasting game, animation/character to Indonesia. You can enjoy various Korean content at once. There are also several special event such as content exhibition, K-drama/animation screening, meet and greet with artist, K-beauty makeup class and many more.</p>
+												<span class="btn-link">VIEW DETAIL  ></span>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-xs-12 event-list-item">
+										<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+											<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+												<div class="col-xs-12 event-date-day" align="center">
+													6
+												</div>
+												<div class="col-xs-12 event-date-month" align="center">
+													OCT
+												</div>
+											</div>
+											<div class="col-sm-9 event-thumbnail-pic no-pad">
+												<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/thumbnail-5.jpg" width="100%"/>
+
+											</div>
+										</div>
+
+										<div class="col-xs-10 col-sm-8 event-item-caption">
+											<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(2)">
+												<label class="event-label bg bg-orange">K-CONTENT</label>
+												<h3 class="head-arial" style="margin-top:5px;">K-POP CONCERT</h3>
+												<h4 class="default"><b>VENUE: </b>Kota Kasablanka Hall</h4>
+												<p class="default pad btm">Get ready for one of the biggest event in Korea Festival 2018. Enjoy 2 hours non-stop K-POP Concert featuring LOVELYZ, LYN, K.A.R.D, SNUPER and special performance by KOCCA's ambassador, HIGHLIGHT on 6th October 2018. Mark your calendar and get your tickets now!</p>
+												<span class="btn-link">VIEW DETAIL  ></span>
+											</a>
+										</div>
+									</div>
+								
+
+								<div class="col-xs-12 event-list-item">
+									<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+										<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+											<div class="col-xs-12 event-date-day no-pad" align="center">
+												8
+											</div>
+											<div class="col-xs-12 event-date-month no-pad" align="center">
+												OCT
+											</div>
+										</div>
+										<div class="col-sm-9 event-thumbnail-pic no-pad">
+											<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/12.jpg" width="100%"/>
+
+										</div>
+									</div>
+
+									<div class="col-xs-10 col-sm-8 event-item-caption">
+										<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(8)">
+											<label class="event-label bg bg-purple">K-EXHIBITION</label>
+											<h3 class="head-arial" style="margin-top:5px;">Korean Fortune Pouch by Lee Jong-Hyo</h3>
+											<h4 class="default grey"><b>VENUE: </b>Lippo Mall Kemang</h4>
+											<p class="default pad btm"><b>Spreading the Beauty of Korean Fortune Pouch to The World.</b><br>We invite Lee Joung-hyo, the artist of Korean emotions, to introduce our unique cultural-color emotions to Indonesia and share positive meaning of blessings through the exhibition of bags and embroideries decorated with ﬁve colors and embroideries. Traveling between Korea and abroad.</p>
+											<span class="btn-link">VIEW DETAIL  ></span>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-xs-12 event-list-item">
+									<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+										<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+											<div class="col-xs-12 event-date-day no-pad" align="center">
+												4
+											</div>
+											<div class="col-xs-12 event-date-month no-pad" align="center">
+												OCT
+											</div>
+										</div>
+										<div class="col-sm-9 event-thumbnail-pic no-pad">
+											<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/7.jpg" width="100%"/>
+
+										</div>
+									</div>
+
+									<div class="col-xs-10 col-sm-8 event-item-caption">
+										<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(12)">
+											<label class="event-label bg bg-red">K-FOOD</label>
+											<h3 class="head-arial" style="margin-top:5px;">Korean Feast</h3>
+											<h4 class="default grey"><b>VENUE: </b>Westine Hotel</h4>
+											<p class="default pad btm"><b>Enjoy authentic Korean food with Korean chefs.</b><br>Join us for some authentic Korean food at Seasonal Tastes, The Westin Jakarta as we welcome guest chefs from Sheraton Grand Incheon Hotel. Monday-Friday Lunch IDR 388,000++ Dinner IDR 408,000++ Saturday & Sunday Lunch & Dinner IDR 438,000++ Prices include ﬂavoured iced tea, soft driks and beer</p>
+											<span class="btn-link">VIEW DETAIL  ></span>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-xs-12 event-list-item">
+									<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+										<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+											<div class="col-xs-12 event-date-day no-pad" align="center">
+												13
+											</div>
+											<div class="col-xs-12 event-date-month no-pad" align="center">
+												OCT
+											</div>
+										</div>
+										<div class="col-sm-9 event-thumbnail-pic no-pad">
+											<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/9.jpg" width="100%"/>
+
+										</div>
+									</div>
+
+									<div class="col-xs-10 col-sm-8 event-item-caption">
+										<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(17)">
+											<label class="event-label bg bg-blue">K-PERFORMANCE</label>
+											<h3 class="head-arial" style="margin-top:5px;">Tales of Mother Land</h3>
+											<h4 class="default grey"><b>VENUE: </b>Lippo Mall Kemang</h4>
+											<p class="default pad btm"><b>The Concert of Poetry Song and Children Song.</b><br>Korean singer Hong Sun-gwan have a chance to dream of Korea's beauty and beautiful future for children and young people who grow up with poetry song and children song.</p>
+											<span class="btn-link">VIEW DETAIL  ></span>
+										</a>
+									</div>
+								</div>
+				    		</div>
+					    	<div class="col-xs-12" align="right">
+					    		<a class="fColor-purple" href="javascript:void(0);" onclick="$('a[aria-controls=event]').click(); $('html, body').animate({scrollTop: $('#event-all').offset().top}, 'slow');">CLICK FOR MORE EVENTS >>></a>
+					    	</div>
+				    	</div>
+				    	<br>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane " id="event">
+			    	<div class="col-xs-12 content no-pad">
+
+				    	<div class="col-xs-12 section section-content">
+				    		<div class="col-xs-12 col-navigation">
+				    			<div class="col-xs-12 calendar">
+				    				<h2 class="head-arial main-head"><span class="head-line"></span> EVENT CALENDAR</h2>
+									<div class="fullcalendar"></div>
+				    			</div>
+				    		</div>
+
+				    		<div class="col-xs-12 col-content content-list no-pad" style="display: block;">
+							  	<div class="tab-content">
+								    <div role="tabpanel" class="tab-pane event-all active" id="event-all">
+								    	<div class="event-body event-body-all">
+											<div class="col-xs-12 event-list-item" alt="Korean Modern Art Exhibition">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															1
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/11-event.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(10)">
+														<label class="event-label bg bg-purple">K-EXHIBITION</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Modern Art Exhibition</h3>
+														<h4 class="default grey"><b>VENUE: </b>Jakarta History Museum</h4>
+														<p class="default pad btm"><b>Elephant in The Room.</b><br>"Elephant in The Room" means that everyone knows it, but it's a tiring problem. The objective of this exhibition is to create opportunities to communicate and share history with Jakarta citizens through similar historical experiences of modern Korean and Indonesian.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Korean Traditional Opera ">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															3
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/10.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(16)">
+														<label class="event-label bg bg-blue">K-PERFORMANCE</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Traditional Opera Spring Spring & Arirang Nanjanggut</h3>
+														<h4 class="default grey"><b>VENUE: </b>Jakarta - Balai Kartini(3 Oct), Batam - Best Western Hotel(6 Oct)</h4>
+														<p class="default pad btm"><b>When Novels Meet Music and Laugh.</b><br>Opera "BOM BOM (Spring Spring)" is a work that combines the comic and musical elements appropriately, and unravels the excellent language sense and dramatic composition of the original novel "BOM BOM" by the traditional play form and western opera. "Arirang Nanjanggut" is a Korean tradition of playing combining some elements  with elements of Korean song, dance, music and comedy as a part of "BOM BOM".</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="K-Food Campus Festival">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															3
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/4.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(13)">
+														<label class="event-label bg bg-red">K-FOOD</label>
+														<h3 class="head-arial" style="margin-top:5px;">K-Food Campus Festival</h3>
+														<h4 class="default grey"><b>VENUE: </b>UMN,BSD Serpong</h4>
+														<p class="default pad btm"><b>Enjoy Korean street food and various Korean foods.</b><br>This 5th Campus Project is an event to introduce Korean food more closely to local university students who are leading the consumer trend in Indonesia by directly watching, listening and feeling Korean food. Korean Food Demo Cooking | K-POP Cover Dance | Korean Traditional Game | Korean Food Contest | Giant Bibimbap Performance & Tasting | Quiz Competition</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="K Content Expo">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															4
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2C.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(1)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">K-Content Expo</h3>
+														<h4 class="default grey"><b>VENUE: </b>Mall Kota Kasablanka</h4>
+														<p class="default pad btm">Korea Creative Content Agency (KOCCA) proudly presents qualified Korean broadcasting game, animation/character to Indonesia. You can enjoy various Korean content at once. There are also several special event such as content exhibition, K-drama/animation screening, meet and greet with artist, K-beauty makeup class and many more.</p>
+
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>																									    	
+											<div class="col-xs-12 event-list-item" alt="Business Networking">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															4
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2B.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(0)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">K-Content Expo - Business Networking</h3>
+														<h4 class="default grey"><b>VENUE: </b>Sheraton Grand Jakarta Gandaria City Hotel 3F Grand ballroom</h4>
+														<p class="default pad btm">40 Korean companies introduce their excellent cultural Content to buyer from Indonesia and ASEAN countries Program : 1:1 Biz-Matching / Networking Reception Content Fields: Broadcasting, Game & VR, Animation & Character</p>
+
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Korean Feast">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															4
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/7.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(12)">
+														<label class="event-label bg bg-red">K-FOOD</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Feast</h3>
+														<h4 class="default grey"><b>VENUE: </b>Westine Hotel</h4>
+														<p class="default pad btm"><b>Enjoy authentic Korean food with Korean chefs.</b><br>Join us for some authentic Korean food at Seasonal Tastes, The Westin Jakarta as we welcome guest chefs from Sheraton Grand Incheon Hotel. Monday-Friday Lunch IDR 388,000++ Dinner IDR 408,000++ Saturday & Sunday Lunch & Dinner IDR 438,000++ Prices include ﬂavoured iced tea, soft driks and beer</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="K-Pop Concert">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															6
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/thumbnail-5.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(2)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">K-POP CONCERT</h3>
+														<h4 class="default grey"><b>VENUE: </b>Kota Kasablanka Hall</h4>
+														<p class="default pad btm">Get ready for one of the biggest event in Korea Festival 2018. Enjoy 2 hours non-stop K-POP Concert featuring LOVELYZ, LYN, K.A.R.D, SNUPER and special performance by KOCCA's ambassador, HIGHLIGHT on 6th October 2018. Mark your calendar and get your tickets now!</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Korean Union of Art & Culture">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															8
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/6.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(5)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Union of Art & Culture Education Festival</h3>
+														<h4 class="default grey"><b>VENUE: </b>Lippo Mall Kemang</h4>
+														<p class="default pad btm">
+															8th Oct 2.00 PM : Opening Ceremony <br>
+															8th~14th Oct : Exhibition <br>
+															9th Oct 3.30 PM : Experience of Korean Traditional Paper Art <br>
+															10th Oct 3.30 PM : Experience of Korean Traditional Percussion Quartet  <br>
+															11th Oct 3.30 PM : Experience of Korean Calligraphy <br>
+															13th~14th Oct 2.00 PM : Performance<br>
+														</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Korean Fortune Pouch">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															8
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/12.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(8)">
+														<label class="event-label bg bg-purple">K-EXHIBITION</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Fortune Pouch by Lee Jong-Hyo</h3>
+														<h4 class="default grey"><b>VENUE: </b>Lippo Mall Kemang</h4>
+														<p class="default pad btm"><b>Spreading the Beauty of Korean Fortune Pouch to The World.</b><br>We invite Lee Joung-hyo, the artist of Korean emotions, to introduce our unique cultural-color emotions to Indonesia and share positive meaning of blessings through the exhibition of bags and embroideries decorated with ﬁve colors and embroideries. Traveling between Korea and abroad.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="K-Beauty Premium Roadshow">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															9
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/13.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(3)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">K-Beauty Premium Roadshow</h3>
+														<h4 class="default grey"><b>VENUE: </b>Sheraton Grand Hotel Pacific Place Ritz Carlton Hotel</h4>
+														<p class="default pad btm">About K-beauty Premium Road Show, The K-beauty Premium Road Show is: <br>- A platform for all types of korean medical & beauty products of excellent quality<br>- A premium show held in partnership with Gangnam-gu - a district in Korea well known for its highest-quality medical & beauty services - offering the best collection of K-medical & beauty products.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Seoul Institute of The Arts ">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															11
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/8.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(18)">
+														<label class="event-label bg bg-blue">K-PERFORMANCE</label>
+														<h3 class="head-arial" style="margin-top:5px;">Seoul Institute of The Arts "NONDA NONDA NONDA"</h3>
+														<h4 class="default grey"><b>VENUE: </b>Jakarta-Sultan Hotel Kudus Zone(11~12 Oct), Lippo Mall Kemang(13~14 Oct)</h4>
+														<p class="default pad btm">The stage of excitement and passion that Korea and Indonesia are uniﬁed through art Through lion dance and samulnori pangut, it shows the beauty and excitement of Korean traditional art. Singing Indonesian famous song "Bengawan Solo" and Arirang by Ensemble and Song. And now all become one, Indonesian traditional music with gamelan playing. Improvisation continues and all become one. The concert of Korean-Indonesian artists will decorate the ﬁnale</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Tales of Mother Land">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															13
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/9.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(17)">
+														<label class="event-label bg bg-blue">K-PERFORMANCE</label>
+														<h3 class="head-arial" style="margin-top:5px;">Tales of Mother Land</h3>
+														<h4 class="default grey"><b>VENUE: </b>Lippo Mall Kemang</h4>
+														<p class="default pad btm"><b>The Concert of Poetry Song and Children Song.</b><br>Korean singer Hong Sun-gwan have a chance to dream of Korea's beauty and beautiful future for children and young people who grow up with poetry song and children song.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>												
+											<div class="col-xs-12 event-list-item" alt="ASEAN-Korea Cultural Night">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															19
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/1.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(4)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">ASEAN-Korea Cultural Night</h3>
+														<h4 class="default grey"><b>VENUE: </b>Pacific Place CGV</h4>
+														<p class="default pad btm"><b>The More you Know, The More You Will Love</b><br>By directly experienceing various Korean contents and food, you can enhance your familiarity with and understanding of korea. This event also will be showing Korean Animation and K-POP and free tasting of Korean foods</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="K-Movie Festival & Seminar">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															18
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/7-event.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(6)">
+														<label class="event-label bg bg-orange">K-CONTENT</label>
+														<h3 class="head-arial" style="margin-top:5px;">K-Movie Festival & Seminar</h3>
+														<h4 class="default grey"><b>VENUE: </b>Jakarta - Grand Indonesia CGV, Jogja - Social Market CGV, Palembang - J-Walk CGV, Makassar - Daya Grand Square CGV</h4>
+														<p class="default pad btm">The 9th Korea Film Festival, which has been attracting much attention since its screning of popular blockbusters every year, will be held at a movie theater located in four major cities. Starting as an opening film "Negotatation" by Hyun Bin & Son Ye Jin, "Dective 1,2", "Along with Gods 1,2", "Battleship Island", "Forgotten" and many other Korean films. Furthermore, Seoul Arts Center Performance & Contents and Indonesia films will be screened</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Korean Folk Painting Exhibition">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															19
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/2.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(9)">
+														<label class="event-label bg bg-purple">K-EXHIBITION</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Folk Painting Exhibition</h3>
+														<h4 class="default grey"><b>VENUE: </b>Korean Cultural Center</h4>
+														<p class="default pad btm"><b>Feel & Enjoy Korea in the 19th.</b><br>Century Korean traditional folk painting is a practical and decorative painting, symbolizing the life feelings and world view of the ordinary people who desire wealthiness, rich resonance, and disease free longevity. It was mainly portrayed in the late 19th century Chosun Dynasty.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>		
+											<div class="col-xs-12 event-list-item" alt="Korean Traditional Handicrafts">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															26
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/3.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(7)">
+														<label class="event-label bg bg-purple">K-EXHIBITION</label>
+														<h3 class="head-arial" style="margin-top:5px;">Korean Traditional Handicrafts Exhibition</h3>
+														<h4 class="default grey"><b>VENUE: </b>Korean Cultural Center</h4>
+														<p class="default pad btm"><b>Enjoy the Unique Lifestyle of Korean Summer.</b><br> Through the traditional summer necessities of Koreans made by the intangible cultural property, Jo Dae-Yong, you can learn how Koreans enjoy summer and overcome the heat</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Watch a GOOD Performance">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															27
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/16-event.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(15)">
+														<label class="event-label bg bg-blue">K-PERFORMANCE</label>
+														<h3 class="head-arial" style="margin-top:5px;">Watch a GOOD Performance</h3>
+														<h4 class="default grey"><b>VENUE: </b>Ciputra Artpreneur Theater</h4>
+														<p class="default pad btm"><b>Comprehensive Performance of Various New Fun.</b><br>Promoting cultural exchange between the two countries through join performances of Korean traditional arts troupes and Indonesian artists. Performances of Korean traditional musical instruments, performance, dances and songs are held and new fun is offered through collaboration between the two countries.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Coocking for Traditional Food">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															28
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/3.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(14)">
+														<label class="event-label bg bg-red">K-FOOD</label>
+														<h3 class="head-arial" style="margin-top:5px;">Coocking Performance for Korean Traditional Food</h3>
+														<h4 class="default grey"><b>VENUE: </b>Korean Cultural Center</h4>
+														<p class="default pad btm"><b>Be the King, Enjoy the King's Diet.</b><br>You can learn the dishes of the kings of the Joseon Dynasty and try it yourself. Culinary lectures and tasting ceremonies are held by the intangible cultural property in terms of imperial food, Chung Gil-Ja.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-12 event-list-item" alt="Cooking for Palace Food">
+												<div class="col-xs-2 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-12 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															29
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/3.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-10 col-sm-8 event-item-caption">
+													<a href="javascript:void(0);" href="javascript:void(0);" onclick="viewPost(11)">
+														<label class="event-label bg bg-red">K-FOOD</label>
+														<h3 class="head-arial" style="margin-top:5px;">Cooking Performance for Korean Palace Food</h3>
+														<h4 class="default grey"><b>VENUE: </b>Grand Melia Hotel</h4>
+														<p class="default pad btm"><b>Be the King, Enjoy the King's Diet.</b><br>You can learn the dishes of the kings of the Joseon Dynasty and try it yourself. Culinary lectures and tasting ceremonies are held by the intangible cultural property in terms of imperial food, Chung Gil-Ja.</p>
+														<span class="btn-link">VIEW DETAIL  ></span>
+													</a>
+												</div>
+											</div>
+								    	</div>
+								    </div>
+
+								    <div role="tabpanel" class="tab-pane event-1" id="event-1a">
+								    	<div class="event-body event-body-1">
+											<div class="col-xs-12 event-list-item">
+												<div class="col-xs-12 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-2 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															4
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-xs-10 col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2B.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-12 col-sm-8 event-item-caption">
+
+													<h3 class="head-arial" style="margin-top:5px;">K-Content Expo - Business Networking</h3>
+													<h4 class="default grey"><b>VENUE: </b>Sheraton Grand Jakarta Gandaria City Hotel 3F Grand ballroom</h4>
+													<p class="default pad btm">40 Korean companies introduce their excellent cultural Content to buyer from Indonesia and ASEAN countries Program : 1:1 Biz-Matching / Networking Reception Content Fields: Broadcasting, Game & VR, Animation & Character</p>
+
+													<a href="javascript:void(0);" class="btn-link" href="javascript:void(0);" onclick="viewPost(0)">VIEW DETAIL  ></a>
+												</div>
+											</div>
+								    	</div>
+								    </div>
+
+								    <div role="tabpanel" class="tab-pane event-2" id="event-2a">
+								    	<div class="event-body event-body-2">
+											<div class="col-xs-12 event-list-item">
+												<div class="col-xs-12 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-2 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															4
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-xs-10 col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2C.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-12 col-sm-8 event-item-caption">
+
+													<h3 class="head-arial" style="margin-top:5px;">K-Content Expo</h3>
+													<h4 class="default grey"><b>VENUE: </b>Mall Kota Kasablanka</h4>
+													<p class="default pad btm">Korea Creative Content Agency (KOCCA) proudly presents qualified Korean broadcasting game, animation/character to Indonesia. You can enjoy various Korean content at once. There are also several special event such as content exhibition, K-drama/animation screening, meet and greet with artist, K-beauty makeup class and many more.</p>
+
+													<a href="javascript:void(0);" class="btn-link" href="javascript:void(0);" onclick="viewPost(1)">VIEW DETAIL  ></a>
+												</div>
+											</div>								    		
+								    	</div>
+								    </div>
+
+								    <div role="tabpanel" class="tab-pane event-3" id="event-3a">
+								    	<div class="event-body event-body-3">
+											<div class="col-xs-12 event-list-item">
+												<div class="col-xs-12 col-sm-4 event-item-thumbnail no-pad">
+													<div class="col-xs-2 col-sm-3 event-thumbnail-date no-pad">
+														<div class="col-xs-12 event-date-day no-pad" align="center">
+															6
+														</div>
+														<div class="col-xs-12 event-date-month no-pad" align="center">
+															OCT
+														</div>
+													</div>
+													<div class="col-xs-10 col-sm-9 event-thumbnail-pic no-pad">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/thumbnail-5.jpg" width="100%"/>
+
+													</div>
+												</div>
+
+												<div class="col-xs-12 col-sm-8 event-item-caption">
+
+													<h3 class="head-arial" style="margin-top:5px;">K-POP CONCERT</h3>
+													<h4 class="default grey"><b>VENUE: </b>Kota Kasablanka Hall</h4>
+													<p class="default pad btm">Get ready for one of the biggest event in Korea Festival 2018. Enjoy 2 hours non-stop K-POP Concert featuring LOVELYZ, LYN, K.A.R.D, SNUPER and special performance by KOCCA's ambassador, HIGHLIGHT on 6th October 2018. Mark your calendar and get your tickets now!</p>
+
+													<a href="javascript:void(0);" class="btn-link" href="javascript:void(0);" onclick="viewPost(2)">VIEW DETAIL  ></a>
+												</div>
+											</div>								    		
+								    	</div>
+								    </div>
+								</div>
+
+				    			<div class="col-xs-12">
+				    				<div class="col-xs-12 col-sm-4">
+				    					
+				    				</div>
+				    			</div>
+				    		</div>
+
+				    		<div class="col-xs-12 col-content content-detail" style="display: none;"> 
+				    			<div class="col-xs-12 event-detail">
+				    			</div>
+				    		</div>
+				    	</div>		    		
+			    	</div>
+			    </div>
+			    
+			    <div role="tabpanel" class="tab-pane" id="k-pop">
+			    	<div class="col-xs-12 content no-pad">
+				    	<div class="col-xs-12 section section-content">
+				    	</div>
+				    </div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="k-fashion">
+			    	<div class="col-xs-12 content no-pad">
+				    	<div class="col-xs-12 section section-content">
+				    	</div>
+				    </div>
+			    </div>
+		  	</div>		
+		</div>
+	</div>	
+	<div class="col-xs-12 foot-banner">
+		<div class="container no-pad">
+			<a href="https://www.ilotte.com/promo-korean-sale-festa-travel-000000115330.do">
+				<div class="col-xs-12 col-sm-6 outer-banner left bg bg-cyan">
+					<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/600Ksale_fiesta.jpg" width="100%"/>
+				</div>
+			</a>
+			<a href="https://www.ilotte.com/ev/K-Pop-Concert/000001083/view.do">
+				<div class="col-xs-12 col-sm-6 outer-banner right bg bg-cloud">
+					<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/600Kconcert.jpg" width="100%"/>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="col-xs-12 partner">
+		<div class="container no-pad">
+			<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/partner.jpg" width="100%">
+		</div>
+	</div>
+
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/front/js/jquery.validate.min.js"></script>
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/front/js/additional-methods.min.js"></script>
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/front/js/tether.min.js" ></script>
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/bootstrap/js/bootstrap.min.js" ></script>
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/slick/slick.min.js" ></script>
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/front/js/moment.min.js"></script>
+<script src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+<script>
+	function load_slick(){
+		$('.banner-slide').slick({
+			slidesToShow: 1,
+		    slidesToScroll: 1,
+		    autoplay: false,
+		    arrows: true,
+		    dots: true,
+		    prevArrow: '<img class="bannerArrow prevArrow" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/arrow-1-prev.png">',
+		    nextArrow: '<img class="bannerArrow nextArrow" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/arrow-1-next.png">',	
+		});	
+
+		$('.thumnail-slide').slick({
+			slidesToShow: 4,
+		    slidesToScroll: 1,
+		    autoplay: false,
+		    arrows: true,
+		    dots: false,
+		    prevArrow: '<img class="bannerArrow prevArrow" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/arrow-2-prev.png">',
+		    nextArrow: '<img class="bannerArrow nextArrow" src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/arrow-2-next.png">',	
+		    responsive: [
+		      	{
+		        	breakpoint: 768,
+		        	settings: {
+				    slidesToShow: 1,
+				    slidesToScroll: 1,
+			      	dots: false,
+			      	arrows: true,
+		        	}
+		    	}
+		    ]
+		});	
+	}
+
+	function viewPost(index){
+
+		var object,minIndex,maxIndex,prevIndex,nextIndex;
+		var print = '';
+
+		const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+
+		$("a[aria-controls=event]").click();
+
+
+		if(index == 0){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b> ';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+			print += 		'    Business Networking';
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2B_Image_3.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Business Networking</h1>';
+				print +=		'<b>4 October 2018 | 10:00 - 18:00</b>';
+				print +=		'<br><h4>VENUE: Sheraton Grand Jakarta Gandaria City Hotel 3F Grand ballroom</h4>';
+				print +=		'<p class="desc">40 Korean companies introduce their excellent cultural Content to buyer from Indonesia and ASEAN countries Program : 1:1 Biz-Matching / Networking Reception Content Fields: Broadcasting, Game & VR, Animation & Character</p>';
+				print +=	'</div>';
+		}else if(index == 1){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+			print += 		'    K-Content Expo';
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/B2C_Image_2.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">K-Content Expo</h1>';
+				print +=		'<b>4 October 2018 | K-CONTENT</b>';
+				print +=		'<br><h4>VENUE: Mall Kota Kasablanka</h4>';
+				print +=		'<p class="desc">Korea Creative Content Agency (KOCCA) proudly presents qualified Korean broadcasting game, animation/character to Indonesia. You can enjoy various Korean content at once. There are also several special event such as content exhibition, K-drama/animation screening, meet and greet with artist, K-beauty makeup class and many more.</p>';
+				print +=	'</div>';
+		}else if(index == 2){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+			print += 		'    K-POP CONCERT';
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/AM_EventPage_EC.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">K-POP CONCERT</h1>';
+				print +=		'<b>6 October 2018 | K-CONTENT</b>';
+				print +=		'<br><h4>VENUE: Kota Kasablanka Hall</h4>';
+				print +=		'<p class="desc">Get ready for one of the biggest event in Korea Festival 2018. Enjoy 2 hours non-stop K-POP Concert featuring LOVELYZ, LYN, K.A.R.D, SNUPER and special performance by KOCCA\'s ambassador, HIGHLIGHT on 6th October 2018. Mark your calendar and get your tickets now!</p>';
+				print +=	'</div>';
+		}else if(index == 3){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    K-Beauty Premium Roadshow';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/4-event-b.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">K-Beauty Premium Roadshow</h1>';
+				print +=		'<b>9 ~ 13 October 2018 | K-CONTENT</b>';
+				print +=		'<br><h4>VENUE: Sheraton Grand Hotel Pacific Place Ritz Carlton Hote</h4>';
+				print +=		'<p class="desc">About K-beauty Premium Road Show, The K-beauty Premium Road Show is: <br>- A platform for all types of korean medical & beauty products of excellent quality<br>- A premium show held in partnership with Gangnam-gu - a district in Korea well known for its highest-quality medical & beauty services - offering the best collection of K-medical & beauty products.</p>';
+				print +=	'</div>';
+		}else if(index == 4){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    ASEAN-Korea Cultural Night';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/5-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">ASEAN-Korea Cultural Night</h1>';
+				print +=		'<b>19 October 2018 | K-CONTENT</b>';
+				print +=		'<br><h4>VENUE: Pacific Place CGV</h4>';
+				print +=		'<p class="desc"><b>The More you Know, The More You Will Love</b> By directly experienceing various Korean contents and food, you can enhance your familiarity with and understanding of korea. This event also will be showing Korean Animation and K-POP and free tasting of Korean foods</p>';
+				print +=	'</div>';		
+		}else if(index == 5){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Union of Art & Culture';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/6-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Union of Art & Culture Education Festival</h1>';
+				print +=		'<b>8 ~ 14 October 2018 | K-CONTENT</b>';
+				print +=		'<br><h4>VENUE: Lippo Mall Kemang</h4>';
+				print +=		'<p class="desc">8th Oct 2.00 PM : Opening Ceremony<br>8th~14th Oct : Exhibition<br>9th Oct 3.30 PM : Experience of Korean Traditional Paper Art<br>10th Oct 3.30 PM : Experience of Korean Traditional Percussion Quartet<br>11th Oct 3.30 PM : Experience of Korean Calligraphy<br>13th~14th Oct 2.00 PM : Performance</p>';
+				print +=	'</div>';	
+		}else if(index == 6){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    K-Movie Festival & Seminar';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/7-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">K-Movie Festival & Seminar</h1>';
+				print +=		'<b>18 ~ 21 October 2018 | K-CONTENT</b>';
+				print +=		'<br><h4>VENUE: Jakarta - Grand Indonesia CGV, Jogja - Social Market CGV, Palembang - J-Walk CGV, Makassar - Daya Grand Square CGV</h4>';
+				print +=		'<p class="desc">The 9th Korea Film Festival, which has been attracting much attention since its screning of popular blockbusters every year, will be held at a movie theater located in four major cities. Starting as an opening film "Negotatation" by Hyun Bin & Son Ye Jin, "Dective 1,2", "Along with Gods 1,2", "Battleship Island", "Forgotten" and many other Korean films. Furthermore, Seoul Arts Center Performance & Contents and Indonesia films will be screened</p>';
+				print +=	'</div>';	
+		}else if(index == 7){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Traditional Handicrafts';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/8-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Traditional Handicrafts Exhibition</h1>';
+				print +=		'<b>26 ~ 31 October 2018 | K-EXHIBITION</b>';
+				print +=		'<br><h4>VENUE: Korean Cultural Center</h4>';
+				print +=		'<p class="desc"><b>Enjoy the Unique Lifestyle of Korean Summer.</b> Through the traditional summer necessities of Koreans made by the intangible cultural property, Jo Dae-Yong, you can learn how Koreans enjoy summer and overcome the heat</p>';
+				print +=	'</div>';	
+		}else if(index == 8){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Fortune Pouch';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/9-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Fortune Pouch by Lee Jong-Hyo</h1>';
+				print +=		'<b>8 ~ 14 October 2018 | K-EXHIBITION</b>';
+				print +=		'<br><h4>VENUE: Lippo Mall Kemang</h4>';
+				print +=		'<p class="desc"><b>Spreading the Beauty of Korean Fortune Pouch to The World.</b> We invite Lee Joung-hyo, the artist of Korean emotions, to introduce our unique cultural-color emotions to Indonesia and share positive meaning of blessings through the exhibition of bags and embroideries decorated with ﬁve colors and embroideries. Traveling between Korea and abroad.</p>';
+				print +=	'</div>';	
+		}else if(index == 9){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Folk Painting Exhibition';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/10-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Folk Painting Exhibition</h1>';
+				print +=		'<b>19 ~ 23 October 2018 | K-EXHIBITION</b>';
+				print +=		'<br><h4>VENUE: Korean Cultural Center</h4>';
+				print +=		'<p class="desc"><b>Feel & Enjoy Korea in the 19th.</b> Century Korean traditional folk painting is a practical and decorative painting, symbolizing the life feelings and world view of the ordinary people who desire wealthiness, rich resonance, and disease free longevity. It was mainly portrayed in the late 19th century Chosun Dynasty.</p>';
+				print +=	'</div>';	
+		}else if(index == 10){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Modern Art Exhibition';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/11-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Modern Art Exhibition</h1>';
+				print +=		'<b>1 ~ 31 October 2018 | K-EXHIBITION</b>';
+				print +=		'<br><h4>VENUE: Jakarta History Museum</h4>';
+				print +=		'<p class="desc"><b>Elephant in The Room.</b> "Elephant in The Room" means that everyone knows it, but it`s a tiring problem. The objective of this exhibition is to create opportunities to communicate and share history with Jakarta citizens through similar historical experiences of modern Korean and Indonesian.</p>';
+				print +=	'</div>';	
+		}else if(index == 11){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Cooking for Palace Food';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/12-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Cooking Performance for Korean Palace Food</h1>';
+				print +=		'<b>29 October 2018 | K-FOOD</b>';
+				print +=		'<br><h4>VENUE: Grand Melia Hotel</h4>';
+				print +=		'<p class="desc"><b>Be the King, Enjoy the King`s Diet.</b> You can learn the dishes of the kings of the Joseon Dynasty and try it yourself. Culinary lectures and tasting ceremonies are held by the intangible cultural property in terms of imperial food, Chung Gil-Ja.</p>';
+				print +=	'</div>';	
+		}else if(index == 12){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Feast';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/13-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Feast</h1>';
+				print +=		'<b>4 ~ 14 October 2018 | K-FOOD</b>';
+				print +=		'<br><h4>VENUE: Westine Hotel</h4>';
+				print +=		'<p class="desc"><b>Enjoy authentic Korean food with Korean chefs.</b> Join us for some authentic Korean food at Seasonal Tastes, The Westin Jakarta as we welcome guest chefs from Sheraton Grand Incheon Hotel. Monday-Friday Lunch IDR 388,000++ Dinner IDR 408,000++ Saturday & Sunday Lunch & Dinner IDR 438,000++ Prices include ﬂavoured iced tea, soft driks and beer</p>';
+				print +=	'</div>';	
+		}else if(index == 13){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    K-Food Campus Festival';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/14-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">K-Food Campus Festival</h1>';
+				print +=		'<b>3 ~ 4 October 2018 | K-FOOD</b>';
+				print +=		'<br><h4>VENUE: UMN,BSD Serpong</h4>';
+				print +=		'<p class="desc"><b>Enjoy Korean street food and various Korean foods.</b> This 5th Campus Project is an event to introduce Korean food more closely to local university students who are leading the consumer trend in Indonesia by directly watching, listening and feeling Korean food. Korean Food Demo Cooking | K-POP Cover Dance | Korean Traditional Game | Korean Food Contest | Giant Bibimbap Performance & Tasting | Quiz Competition</p>';
+				print +=	'</div>';
+		}else if(index == 14){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Coocking for Traditional Food';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/15-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Coocking Performance for Korean Traditional Food</h1>';
+				print +=		'<b>28 October 2018 | K-FOOD</b>';
+				print +=		'<br><h4>VENUE: Korean Cultural Center</h4>';
+				print +=		'<p class="desc"><b>Be the King, Enjoy the King`s Diet.</b> You can learn the dishes of the kings of the Joseon Dynasty and try it yourself. Culinary lectures and tasting ceremonies are held by the intangible cultural property in terms of imperial food, Chung Gil-Ja.</p>';
+				print +=	'</div>';
+		}else if(index == 15){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Watch a GOOD Performance';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/16-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Watch a GOOD Performance</h1>';
+				print +=		'<b>27 October 2018 | K-PERFORMANCE</b>';
+				print +=		'<br><h4>VENUE: Ciputra Artpreneur Theater</h4>';
+				print +=		'<p class="desc"><b>Comprehensive Performance of Various New Fun.</b> Promoting cultural exchange between the two countries through join performances of Korean traditional arts troupes and Indonesian artists. Performances of Korean traditional musical instruments, performance, dances and songs are held and new fun is offered through collaboration between the two countries.</p>';
+				print +=	'</div>';
+		}else if(index == 16){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Korean Traditional Opera';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/17-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Korean Traditional Opera Spring Spring & Arirang Nanjanggut</h1>';
+				print +=		'<b>3 & 6 October 2018 | K-PERFORMANCE</b>';
+				print +=		'<br><h4>VENUE: Jakarta-Balai Kartini(3 October), Batam-Best Western Hotel(6 October)</h4>';
+				print +=		'<p class="desc"><b>When Novels Meet Music and Laugh.</b> Opera "BOM BOM (Spring Spring)" is a work that combines the comic and musical elements appropriately, and unravels the excellent language sense and dramatic composition of the original novel "BOM BOM" by the traditional play form and western opera. "Arirang Nanjanggut" is a Korean tradition of playing combining some elements  with elements of Korean song, dance, music and comedy as a part of "BOM BOM".</p>';
+				print +=	'</div>';
+		}else if(index == 17){
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Tales of Mother Land';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/18-event.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Tales of Mother Land</h1>';
+				print +=		'<b>13 ~ 14 October 2018 | K-PERFORMANCE</b>';
+				print +=		'<br><h4>VENUE: Lippo Mall Kemang</h4>';
+				print +=		'<p class="desc"><b>WhenThe Concert of Poetry Song and Children Song.</b> Korean singer Hong Sun-gwan have a chance to dream of Korea`s beauty and beautiful future for children and young people who grow up with poetry song and children song.</p>';
+				print +=	'</div>';
+		}else{
+			print +=	'<div class="col-xs-12 event-breadcumb">';
+			print += 		'<a href="javascript:void(0);" class="breadcumb event-tab"><b>EVENT</b></a> <b>/ </b>';
+			print += 		'<div class="dropdown">';
+			print += 		'  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+
+			print += 		'    Seoul Institute of The Arts';
+			
+			print += 		'    <span class="caret"></span>';
+			print += 		'  </button>';
+			print += 		'  <ul class="dropdown-menu" aria-labelledby="dLabel">';
+			print += 		'    '+breadcumb(index);
+			print += 		'  </ul>';
+			print += 		'</div>';
+			print +=	'</div>';
+
+			print +=	'<div class="col-xs-12 event-detail">';
+				print +=		'<img src="https://s3-ap-southeast-1.amazonaws.com/ecm-prd-pub/kfestival/assets/img/19-event-a.jpg" width="100%"/>';
+				print +=		'<hr>';
+				print +=		'<h1 class="heading">Seoul Institute of The Arts "NONDA NONDA NONDA"</h1>';
+				print +=		'<b>11 ~ 12 & 13 ~ 14 October 2018 | K-PERFORMANCE</b>';
+				print +=		'<br><h4>VENUE: Jakarta Sultan Hotel, Kudus Zone(11~12 October), Lippo Mall Kemang(13~14 October)</h4>';
+				print +=		'<p class="desc">The stage of excitement and passion that Korea and Indonesia are uniﬁed through art Through lion dance and samulnori pangut, it shows the beauty and excitement of Korean traditional art. Singing Indonesian famous song "Bengawan Solo" and Arirang by Ensemble and Song. And now all become one, Indonesian traditional music with gamelan playing. Improvisation continues and all become one. The concert of Korean-Indonesian artists will decorate the ﬁnale</p>';
+				print +=	'</div>';
+		}
+
+		$(".col-content.content-detail").html(print);
+
+		$(".col-content.content-detail").show();
+		$(".col-content.content-list").hide();
+
+		$(".col-navigation").hide();
+		$(".col-separator").hide();
+
+	    $('html, body').animate({
+	      scrollTop: $('.content-detail').offset().top
+	    }, "slow");
+
+		$(".event-tab").click(function(){
+
+			$(".col-content.content-detail").hide();
+			$(".col-content.content-list").show();
+
+			$(".col-navigation").show();
+			$(".col-separator").show();
+		});
+	}
+
+	function breadcumb(id){
+		var print = '';
+		var printContent = '';
+		var printExhibition = '';
+		var printFood = '';
+		var printPerformance = '';
+
+		var arrBreadcumb = [
+							['10','<a href="javascript:void(0);" onclick="viewPost(10)"><li>Korean Modern Art Exhibition</li></a>','K-EXHIBITION'],
+							['16','<a href="javascript:void(0);" onclick="viewPost(16)"><li>Korean Traditional Opera</li></a>','K-PERFORMANCE'],
+							['13','<a href="javascript:void(0);" onclick="viewPost(13)"><li>K-Food Campus Festival</li></a>','K-FOOD'],
+							['1','<a href="javascript:void(0);" onclick="viewPost(1)"><li>K-Content Expo</li></a>','K-CONTENT'],
+							['0','<a href="javascript:void(0);" onclick="viewPost(0)"><li>Business Networking</li></a>','K-CONTENT'],
+							['12','<a href="javascript:void(0);" onclick="viewPost(12)"><li>Korean Feast</li></a>','K-FOOD'],
+							['2','<a href="javascript:void(0);" onclick="viewPost(2)"><li>K-POP CONCERT</li></a>','K-CONTENT'],
+							['5','<a href="javascript:void(0);" onclick="viewPost(5)"><li>Korean Union of Art & Culture</li></a>','K-CONTENT'],
+							['8','<a href="javascript:void(0);" onclick="viewPost(8)"><li>Korean Fortune Pouch</li></a>','K-EXHIBITION'],
+							['3','<a href="javascript:void(0);" onclick="viewPost(3)"><li>K-Beauty Premium Roadshow</li></a>','K-CONTENT'],
+							['18','<a href="javascript:void(0);" onclick="viewPost(18)"><li>Seoul Institute of The Arts</li></a>','K-PERFORMANCE'],
+							['17','<a href="javascript:void(0);" onclick="viewPost(17)"><li>Tales of Mother Land</li></a>','K-PERFORMANCE'],
+							['4','<a href="javascript:void(0);" onclick="viewPost(4)"><li>ASEAN-Korea Cultural Night</li></a>','K-CONTENT'],
+							['6','<a href="javascript:void(0);" onclick="viewPost(6)"><li>K-Movie Festival & Seminar</li></a>','K-CONTENT'],
+							['9','<a href="javascript:void(0);" onclick="viewPost(9)"><li>Korean Folk Painting Exhibition</li></a>','K-EXHIBITION'],
+							['7','<a href="javascript:void(0);" onclick="viewPost(7)"><li>Korean Traditional Handicrafts</li></a>','K-EXHIBITION'],
+							['15','<a href="javascript:void(0);" onclick="viewPost(15)"><li>Watch a GOOD Performance</li></a>','K-PERFORMANCE'],
+							['14','<a href="javascript:void(0);" onclick="viewPost(14)"><li>Coocking for Traditional Food</li></a>','K-FOOD'],
+							['11','<a href="javascript:void(0);" onclick="viewPost(11)"><li>Cooking for Palace Food</li></a>','K-FOOD'],
+						   ]
+
+		arrBreadcumb.forEach(function(item, index, array) {
+		  	if(item[0] != id){
+		  		switch(item[2]) {
+				    case 'K-CONTENT':
+				    	printContent += item[1];
+				        break;
+				    case 'K-EXHIBITION':
+				    	printExhibition += item[1];
+				        break;
+				    case 'K-FOOD':
+				    	printFood += item[1];
+				        break;
+				    default:
+				    	printPerformance += item[1];
+				}
+		  	}
+		});
+
+  		print += '<li class="group"><span class="square" style="background: #FBB040;"></span> K-CONTENT</li>'+printContent;
+  		print += '<li class="group"><span class="square" style="background: #A4238E;"></span> K-EXHIBITION</li>'+printExhibition;
+  		print += '<li class="group"><span class="square" style="background: #ED1A3B;"></span> K-FOOD</li>'+printFood;
+  		print += '<li class="group"><span class="square" style="background: #00AEEF;"></span> K-PERFORMANCE</li>'+printPerformance;
+
+		return print;
+	}
+
+	$(document).ready(function(){
+		load_slick();
+
+		var current_yyyymm_ 	= moment().format("YYYYMM");
+		var current_yyyymm_oct  = moment().format("YYYYMM");//moment(new Date('2018-10-01')).format("YYYYMM");	
+
+		$(".active a[aria-controls=event]").click(function(){
+			$(".col-content.content-detail").hide();
+			$(".col-content.content-list").show();
+
+		});
+
+		$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+		    $('.fullcalendar').fullCalendar('render');
+		})	
+
+		$("a[aria-controls=home]").click(function(){
+			$(".col-content.content-detail").hide();
+			$(".col-content.content-list").show();
+
+			$(".col-navigation").show();
+			$(".col-separator").show();
+		});
+
+		$('.fullcalendar').fullCalendar({
+		    defaultView: 'month',
+		    defaultDate: '2018-10-01',
+		    fixedWeekCount: false,
+		    firstDay: 1,
+		    contentHeight: 'auto',
+		    header: {
+					  left:   '',
+					  center: '',
+					  right:  ''
+					},
+
+		    // eventRender: function(eventObj, $el) {
+			    //      $el.popover({
+			    //       	title: eventObj.title,
+			    //       	content: eventObj.description,
+			    //       	trigger: 'hover',
+			    //       	placement: 'top',
+			    //       	container: 'body'
+		     	// 		});
+		    // },
+
+		    events: [
+		      	// {
+			    //     title: 'K FOOD COOKING PERFORMANCE',
+			    //     // description: 'K FOOD COOKING PERFORMANCE',
+			    //     start: '2018-10-01',
+			    //     end: '2018-10-03',
+			    //     color: '#ED1A3B' 
+		      	// },
+		      	// {
+			    //     title: 'GLOBAL TASTE OF KOREA',
+			    //     start: '2018-10-01',
+			    //     end: '2018-10-03',
+			    //     color: '#ED1A3B' 
+		      	// },
+		      	{
+			        title: 'KOREAN MODERN ART EXHIBITION',
+			        start: '2018-10-01',
+			        end: '2018-10-08',
+			        color: '#A4238E' 
+		      	},
+		      	{
+			        title: 'K-FOOD CAMPUS FESTIVAL',
+			        start: '2018-10-03',
+			        end: '2018-10-05',
+			        color: '#ED1A3B' 
+		      	},
+		      	{
+			        title: 'K-CONTENT EXPO | K-POP CONCERT ( OCT 6 )',
+			        start: '2018-10-04',
+			        end: '2018-10-08',
+			        color: '#FBB040' 
+		      	},
+		      	{
+			        title: 'KOREAN FEAST',
+			        start: '2018-10-04',
+			        end: '2018-10-15',
+			        color: '#ED1A3B' 
+		      	},
+		      	{
+			        title: 'BOM BOM ( SPRING SPING ) & ARIRANG NANJANGGUT IN JAKARTA',
+			        start: '2018-10-03',
+			        end: '2018-10-04',
+			        color: '#00AEEF' 
+		      	},
+		      	{
+			        title: 'BOM BOM ( SPRING SPING ) & ARIRANG NANJANGGUT IN BATAM',
+			        start: '2018-10-06',
+			        end: '2018-10-07',
+			        color: '#00AEEF' 
+		      	},
+
+		      	{
+			        title: 'KOREAN CULTURAL ART ASSOCIATION FESTIVAL',
+			        start: '2018-10-08',
+			        end: '2018-10-15',
+			        color: '#FBB040' 
+		      	},
+		      	{
+			        title: 'K-BEAUTY PREMIUM ROADSHOW',
+			        start: '2018-10-09',
+			        end: '2018-10-10',
+			        color: '#FBB040' 
+		      	},
+		      	{
+			        title: 'TALES OF MOTHER LAND',
+			        start: '2018-10-13',
+			        end: '2018-10-15',
+			        color: '#00AEEF' 
+		      	},
+		      	{
+			        title: 'SEOUL INSTITUTE OF THE ARTS, "NONDA NONDA NONDA"',
+			        start: '2018-10-11',
+			        end: '2018-10-15',
+			        color: '#00AEEF' 
+		      	},
+		      	{
+			        title: 'FORTUNE POUCH EXHIBITION BY LEE JOUNG-HYO | KOREAN MODERN ART EXHIBITION',
+			        start: '2018-10-08',
+			        end: '2018-10-15',
+			        color: '#A4238E' 
+		      	},
+
+		      	{
+			        title: 'KOREA - INDONESIA FILM FESTIVAL',
+			        start: '2018-10-18',
+			        end: '2018-10-22',
+			        color: '#FBB040' 
+		      	},
+		      	{
+			        title: 'ASEAN - KOREA CULTURAL NIGHT',
+			        start: '2018-10-19',
+			        color: '#FBB040' 
+		      	},
+		      	{
+			        title: 'KOREAN FOLK PAINTING EXHIBITION',
+			        start: '2018-10-19',
+			        end: '2018-10-23',
+			        color: '#A4238E' 
+		      	},
+		      	{
+			        title: 'KOREAN MODERN ART EXHIBITION',
+			        start: '2018-10-15',
+			        end: '2018-10-29',
+			        color: '#A4238E' 
+		      	},
+
+		      	{
+			        title: 'WATCH A GOOD PERFORMANCE',
+			        start: '2018-10-27',
+			        color: '#00AEEF' 
+		      	},
+		      	{
+			        title: 'COOKING PERFORMANCE FOR KOREAN TRADITIONAL FOOD',
+			        start: '2018-10-28',
+			        color: '#ED1A3B' 
+		      	},
+		      	{
+			        title: 'KOREAN TRADITIONAL HANDYCRAFTS EXHIBITION',
+			        start: '2018-10-26',
+			        end: '2018-10-29',
+			        color: '#A4238E' 
+		      	},
+
+				  
+		      	{
+			        title: 'KOREAN TRADITIONAL HANDYCRAFTS EXHIBITION | KOREAN MODERN ART EXHIBITION',
+			        start: '2018-10-29',
+			        end: '2018-11-01',
+			        color: '#A4238E' 
+		      	},
+		      	{
+			        title: 'COOKING PERFORMANCE FOR KOREAN PALACE FOOD',
+			        start: '2018-10-29',
+			        color: '#ED1A3B' 
+		      	},
+		      	// {
+			    //     title: 'KOREAN IMPERIAL HEALTHY FOOD CLASS',
+			    //     start: '2018-10-29',
+			    //     color: '#ED1A3B' 
+		      	// }
+
+		      	// {
+			      //   id: 999,
+			      //   title: 'Repeating Event',
+			      //   start: '2018-08-09T16:00:00'
+		      	// },
+		      	// {
+			      //   id: 999,
+			      //   title: 'Repeating Event',
+			      //   start: '2018-08-16T16:00:00'
+		      	// },
+		    ]
+		});
+	})
+</script>
+
