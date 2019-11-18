@@ -23,6 +23,7 @@ $font_family_4: unset;
 $font_gibson_semibold: 'Gibson Semibold';
 $font_family_6: DIN Regular;
 $font_gibson_regular: 'Gibson Regular';
+$font_poetsen_regular: 'Poetsen One';
 $background_color_1: unset;
 $border_color_1: #808080;
 
@@ -65,6 +66,56 @@ $border_color_1: #808080;
 	font-style: normal;
 	src: url("../fonts/HelveticaNeueLTStd-Md.otf") format("opentype"),url("../fonts/HelveticaNeueLTStd-Md.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Md.woff") format("woff");
 	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Poetsen One';
+	font-style: normal;
+	src: url("../fonts/PoetsenOne-Regular.ttf") format("truetype");
+	font-weight: normal;
+}
+
+// .fancybox-overlay-fixed{
+// 	display: none !important;
+// }
+
+.quick_imenus{
+	.layer_ui{
+		.badge{
+			background-color: transparent;
+		}
+	}
+}
+
+.no-border{
+	border: 0 !important;
+}
+
+.top_popbanner_wrap, .kmall_side_50 {
+	display: none !important;
+}
+
+.malltab{
+	.malltab-list{
+		a{
+			&:focus, &:hover{
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+		&.denki{
+			color: #333;
+		}
+	}
+}
+
+
+.floating-promo__content img {
+    display: none;
+}
+
+.malltab{
+	margin-bottom: 0 !important;
 }
 #gnb {
 	.gnb_innr {
@@ -176,9 +227,28 @@ $border_color_1: #808080;
 .bg.bg-cloud {
 	background: #00aeef !important;
 }
-body {
-	
+.text-dark-blue{
+	color: $color_dark_blue;
 }
+body {
+	font: normal 12px/1.5 Arial, Helvetica, Sans-serif;
+}
+
+.con_category{
+	.category_list{
+		h3{
+			font-size: 12px;
+			font-weight: 700;
+		}
+	}
+}
+
+:after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
 h2{
 	font-size: 16px;
 }
@@ -287,12 +357,11 @@ h4.grey {
 h5.grey {
 	color: $color_5 !important;
 }
-p {
-	font-family: $font_helvetica;
+
+.font-default{
+	font-family: $font_helvetica !important;
 }
-b {
-	font-family: $font_helvetica;
-}
+
 p.default {
 	font-family: $font_family_4;
 }
@@ -405,6 +474,261 @@ span {
 	margin-bottom: -25px;
 	padding-bottom: 25px;
 }
+
+.header-img-container{
+	.container-fluid{
+		position: relative;
+		@media only screen and (max-width: 768px) {
+			overflow: hidden;
+			&::-webkit-scrollbar { 
+				display: none;  // Safari and Chrome
+			}
+		}
+	}
+	.main-tabs{
+		border-bottom: 0 !important;
+		position: absolute;
+		text-align: center;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		@media only screen and (min-width: 769px) {
+			bottom: 15px;
+		}
+		li {
+			display: inline-block;
+			float: none;
+			text-align: center;
+			&.k-sale-festa-anchor-list{
+				position: relative;
+				&:after{
+					background: url(../../img/on-sale.png);
+					position: absolute;
+					width: 45px;
+					height: 45px;
+					content: "";
+					top: -15px;
+					right: 0;
+					background-repeat: no-repeat;
+					background-size: contain;
+				}
+				@media only screen and (max-width: 768px) {
+					&:after{
+						background: url(../../img/on-sale.png);
+						position: absolute;
+						width: 25px;
+						height: 25px;
+						content: "";
+						top: 0px;
+						right: 0;
+						background-repeat: no-repeat;
+						background-size: contain;
+					}
+				}
+			}
+			@media only screen and (min-width: 769px) {
+				width: auto;
+			}
+			a{
+				line-height: 1;
+				box-sizing: border-box;
+				text-align: center;
+				color: white;
+				font-family: $font_poetsen_regular;
+				font-size: 20px;
+				background: red;
+				padding: 30px;
+				border-radius: 100px;
+				border: 5px solid white;
+				height: 70px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				justify-content: center;
+				&.event-anchor{
+					background: #002B58;
+				}
+				&.korea-ticket-anchor{
+					background: #00AEF0;
+					&:before{
+						position: absolute;
+						top: 10%;
+						left: 20%;
+						background-image: url(../../img/camar-left.png);
+						content: "";
+						background-repeat: no-repeat;
+						background-size: contain;
+						width: 28px;
+						height: 16px;
+					}
+					&:after{
+						position: absolute;
+						top: 70%;
+						right: 10%;
+						background-image: url(../../img/camar-right.png);
+						content: "";
+						background-repeat: no-repeat;
+						background-size: contain;
+						width: 28px;
+						height: 13px;
+					}
+					&:hover{
+						&:before{
+							background-image: url(../../img/camar-left-biru.png);
+						}
+						&:after{
+							background-image: url(../../img/camar-right-biru.png);
+						}
+					}
+					@media only screen and (max-width: 768px) {
+						&:before{
+							width: 14px;
+							height: 8px;
+						}
+						&:after{
+							
+							width: 14px;
+							height: 6px;
+						}
+					}
+				}
+				&.k-pop-festival-anchor{
+					background: #F6AB39;
+				}
+				&.performance-ticket-anchor{
+					background: #A5238F;
+					position: relative;
+					&:before{
+						position: absolute;
+						top: 10%;
+						left: 10%;
+						background-image: url(../../img/stars-white.png);
+						content: "";
+						background-repeat: no-repeat;
+						background-size: contain;
+						width: 20px;
+						height: 15px;
+					}
+					&:after{
+						position: absolute;
+						top: 10%;
+						right: 8%;
+						background-image: url(../../img/mic-white.png);
+						content: "";
+						background-repeat: no-repeat;
+						background-size: contain;
+						width: 20px;
+						height: 20px;
+					}
+					&:hover{
+						&:before{
+							background-image: url(../../img/stars.png);
+						}
+						&:after{
+							background-image: url(../../img/mic.png);
+						}
+					}
+					@media only screen and (max-width: 768px) {
+						&:before{
+							width: 10px;
+							height: 7px;
+						}
+						&:after{
+							width: 10px;
+							height: 10px;
+						}
+					}
+				}
+				&.k-sale-festa-anchor{
+					background: #DC3433;
+				}
+				@media only screen and (max-width: 768px) {
+					font-size: 12px;
+					min-width: 0;
+					height: 50px;
+					padding: 5px;
+				}
+			}
+		}
+		li.active>a, li>a:focus, li>a:hover {
+			background-color: white;
+			border: 5px solid white;
+			&.event-anchor{
+				border: 5px solid #002B58;
+				color: #002B58;
+				
+			}
+			&.korea-ticket-anchor{
+				border: 5px solid #00AEF0;
+				color: #00AEF0;
+				&:before{
+					background-image: url(../../img/camar-left-biru.png);
+				}
+				&:after{
+					background-image: url(../../img/camar-right-biru.png);
+				}
+				
+			}
+			&.k-pop-festival-anchor{
+				color: #F6AB39;
+				border: 5px solid #F6AB39;
+			}
+			&.performance-ticket-anchor{
+				border: 5px solid #A5238F;
+				color: #A5238F;
+				&:before{
+					background-image: url(../../img/stars.png);
+				}
+				&:after{
+					background-image: url(../../img/mic.png);
+				}
+			}
+			&.k-sale-festa-anchor{
+				border: 5px solid #DC3433;
+				color: #DC3433;
+			}
+		}
+		@media only screen and (max-width: 700px){
+			justify-content: initial;
+		}
+		@media only screen and (max-width: 768px) {
+			position: relative;
+			overflow-x: scroll;
+			-ms-overflow-style: none;  // IE 10+
+    		scrollbar-width: none;  // Firefox
+			&::-webkit-scrollbar { 
+				display: none;  // Safari and Chrome
+			}
+
+			li{
+				display: inline-block;
+				float: left;
+				margin-top: 10px;
+
+				margin-bottom: 10px;
+				a{
+					
+					&.event-anchor{
+						width: 100px;
+					}
+					&.korea-ticket-anchor{
+						width: 120px;
+					}
+					&.k-pop-festival-anchor{
+						width: 100px;
+					}
+					&.performance-ticket-anchor{
+						width: 150px;
+					}
+					&.k-sale-festa-anchor{
+						width: 150px;
+					}
+				}
+			}
+		}
+	}
+}
+
 .container.main {
 	
 	.row {
@@ -604,6 +928,111 @@ span {
 		}
 	}
 	#home {
+		p {
+			font-family: $font_helvetica;
+		}
+		b {
+			font-family: $font_helvetica;
+		}
+		.section-navigation{
+			margin-top: 15px;
+			@media only screen and (min-width: 768px) {
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+			.live-now-wrapper{
+				display: inline-block;
+				.live-now{
+					font-family: $font_gibson_semibold;
+					font-size: 15px;
+					color: #D4D2D2;
+					border: 1px solid #D4D2D2;
+					border-radius: 4px;
+					padding: 6px 10px;
+					cursor: pointer;
+				}
+			}
+			.live-schedule-wrapper{
+				// position: relative;
+				margin-left: 12px;
+				display: inline-block;
+				.live-schedule{
+					cursor: pointer;
+					font-family: $font_gibson_semibold;
+					font-size: 15px;
+					color: $color_article;
+					border-radius: 4px;
+					display: flex;
+					align-items: center;
+
+					background-color: transparent;
+					border: none;
+					&:focus{
+						border: none;
+						outline: none;
+					}
+					.glyphicon{
+						margin-left: 12px;
+						color: #D4D2D2;
+					}
+					&:hover{
+						text-decoration: none;
+					}
+				}
+				.live-schedule-content{
+					position: absolute;
+					background: white;
+					z-index: 999;
+					left: 0;
+					h2{
+						margin-left: 143px;
+					}
+					.lives-row{
+						
+						@media only screen and (min-width: 769px){
+							width: calc(100% - 128px);
+							margin-right: 0;
+							margin-left: 128px;
+						}
+					}
+				}
+				
+			}
+			.anchor-wrapper{
+				color: $color_article;
+				font-family: $font_gibson_semibold;
+				font-size: 15px;
+				margin-right: 15px;
+				margin-left: 15px;
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				&.map-anchor-wrapper{
+					&:before{
+						background: url("../../img/location-icon.png");
+						width: 15px;
+						height: 15px;
+						background-repeat: no-repeat;
+						background-size: contain;
+						content: "";
+						display: inline-block;
+						margin-right: 5px;
+					}
+				}
+				&.calendar-anchor-wrapper{
+					&:before{
+						background: url("../../img/calendar-icon\ \(2\).png");
+						width: 15px;
+						height: 15px;
+						background-repeat: no-repeat;
+						background-size: contain;
+						content: "";
+						display: inline-block;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
 		.section.section-banner {
 			display: block;
 			padding: 0;
@@ -704,6 +1133,9 @@ span {
 			}
 		}
 		.section.section-map {
+			@media only screen and (min-width: 768px){
+				padding: 0 30px 45px;
+			}
 			padding-bottom: 30px;
 			padding-left: 0;
 			padding-right: 0;
@@ -761,6 +1193,7 @@ span {
 					// border-bottom: 1px solid #000;
 					display: flex;
 					box-sizing: border-box;
+					min-height: 100px;
 					&:first-child {
 						padding-top: 5px;
 					}
@@ -777,7 +1210,7 @@ span {
 					.event-item-thumbnail {
 						z-index: 1;
 						border-right: 4px dotted #AAB1BF;
-						font-family: $font_gibson_semibold;
+						font-family: $font_gibson_semibold !important;
 						color: $color_dark_blue;
 						padding-left: 0;
 						&:after{
@@ -819,6 +1252,8 @@ span {
 							// font-weight: bold;
 							padding: 0 15px 0 0 !important;
 							font-size: 20px;
+							font-family: $font_gibson_semibold !important;
+
 						}
 						.event-date-hour{
 							padding: 0 15px 0 0 !important;
@@ -832,6 +1267,8 @@ span {
 							font-size: 14px;
 							// margin-top: -5px;
 							font-weight: bold;
+							font-family: $font_gibson_semibold !important;
+
 						}
 						.event-thumbnail-pic {
 							.outer-pic-event {
@@ -863,7 +1300,38 @@ span {
 						
 						.view-button{
 							margin-top: auto;
-							align-self: end;
+							align-self: baseline;
+							&.registration{
+								margin-top: 20px;
+								background-color: #FF6363;
+								&:hover{
+									background-color: darken(#FF6363, 10%);
+								}
+								min-width: 100px;
+								text-align: center;
+								@media only screen and (max-width: 500px) {
+									padding: 5px;
+									font-size: 10px;
+									min-width: 75px;
+									margin-bottom: 15px;
+								}
+							}
+                            &.closed{
+                                margin-top: 20px;
+								background-color: gray;
+								cursor: not-allowed;
+								min-width: 100px;
+								text-align: center;
+                                &:hover{
+									background-color: gray;
+								}
+								@media only screen and (max-width: 500px) {
+									padding: 5px;
+									font-size: 10px;
+									min-width: 75px;
+									margin-bottom: 15px;
+								}
+                            }
 						}
 						.caption-category {
 							font-family: $font_helvetica;
@@ -890,15 +1358,16 @@ span {
 									color: lighten($color_article, 10%);
 								}
 								&.view-button{
-									background: lighten($color_dark_blue, 5%);
+									background: darken(#A8BCE5, 5%);
 								}
 							}
 							&.view-button{
-								background: $color_dark_blue;
+								background: #A8BCE5;
 								padding: 10px 10px;
 								color: white;
 								border-radius: 3px;
 								font-size: 12px;
+								font-weight: 700;
 							}
 						}
 						h1 {
@@ -909,6 +1378,10 @@ span {
 							margin-top: 0px;
 							font-size: 24px;
 							color: $color_article;
+							overflow: hidden;
+							display: -webkit-box;
+							-webkit-line-clamp: 2;
+							-webkit-box-orient: vertical;  
 						}
 						h4{
 							font-family: $font_helvetica;
@@ -917,6 +1390,22 @@ span {
 							font-weight: 600;
 							display: flex;
 							color: $color_article;
+							overflow: hidden;
+							display: -webkit-box;
+							-webkit-line-clamp: 1;
+							-webkit-box-orient: vertical; 
+							&:hover{
+								color: lighten($color_article, 10%);
+							}
+							&:before{
+								content: "";
+								background: url(../../img/map-pin.png) no-repeat;
+								width: 12px;
+								height: 12px;
+								display: inline-block;
+								margin-right: 2px;
+								background-size: contain;
+							}
 							@media only screen and (min-width: 768px) {
 								&:before{
 									content: "";
@@ -928,14 +1417,19 @@ span {
 									background-size: cover;
 								}
 							}
-							
 						}
 						p {
 							height: 80px;
-							overflow: hidden;
 							font-family: $font_helvetica;
 							color: $color_article;
-                            margin-bottom: 10px;
+							margin-bottom: 10px;
+							display: -webkit-box;
+							// -webkit-line-clamp: 3;
+							// -webkit-box-orient: vertical;
+							overflow: hidden;
+							&.no-max-height{
+								height: auto;
+							}
 						}
 						@media only screen and (max-width: 767px) {
 							h3{
@@ -954,10 +1448,10 @@ span {
 
 						@media only screen and (max-width: 420px) {
 							h3{
-								font-size: 12px;
+								font-size: 16px;
 							}
 							h4{
-								font-size: 10px;
+								font-size: 12px;
 							}
 							label{
 								font-size: 10px;
@@ -1014,25 +1508,38 @@ span {
 .event-detail {
 	background: white;
 	font-family: $font_gibson_regular;
-	color: $color_dark_blue;
+	color: $color_article;
 	padding-bottom: 30px;
-	.heading {
-		color: $color_dark_blue;
-		font-family: $font_gibson_semibold;
+	.separator{	
+		border: 2px dashed #C8C8C8;
+		margin-bottom: 30px;
+		margin-top: 40px;
+		display: block !important;
+		clear: both;
 	}
-	h4{
-		font-size: 14px;
-		color: $color_dark_blue;
+	.heading {
+		color: $color_article;
+		font-family: $font_gibson_regular;
+		font-size: 40px;
+	}
+	h4, a{
+		font-size: 20px;
+		color: $color_article;
+		margin-top: 0;
 	}
 	.event-detail-date{
-		p{
-			font-size: 14px;
-			margin:0;
-		}
+		font-size: 20px;
+		margin:0;
+		font-family: $font_gibson_regular;
+		margin-bottom: 0;
 		b{
-			font-weight: normal !important
+			font-family: $font_gibson_regular !important;
+			font-size: 20px;
+			font-weight: normal !important;
+			margin: 0;
 		}
 	}
+	
 	.img-container{
 		margin-top: 15px;
 		margin-bottom: 15px;
@@ -1044,6 +1551,35 @@ span {
 
 			// }
 		}
+	}
+
+	.event-sns-wrapper{
+		.event-sns{
+			width: 48px;
+			&:hover{
+				text-decoration: none;
+			}
+			img{
+				width: 48px;
+			}
+		}
+	}
+
+	.btn-ext-link{
+		color: #ffffff;
+		background-color: #A8BCE5;
+		padding: 10px 20px;
+		font-size: 16px;
+		font-family: $font_helvetica;
+		&:hover{
+			background: darken(#A8BCE5, 10%);
+			text-decoration: none;
+		}
+		
+	}
+	.btn-ext-link-wrapper{
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 }
 
@@ -1088,6 +1624,12 @@ span {
 }
 .slick-slider.banner-slide {
 	outline: none;
+	margin-top: 15px;
+	// padding: 30px;
+	@media only screen and (min-width: 769px) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 	.banner-slide-item {
 		position: relative;
 		padding: 15px 0;
@@ -1108,13 +1650,15 @@ span {
 		}
 	}
 	.slick-dots {
+		// position: initial;
 		bottom: -15px;
+		left: 0;
 		li {
 			margin: 0;
 			button {
 				&:before{
 					content: "";
-					background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_kcontent.jpg);
+					background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_nonverb_flying.jpg);
 					overflow:hidden;
 					width: 36px;
 					height: 36px;
@@ -1143,17 +1687,31 @@ span {
 					}
 				}
 			}
-			&:nth-child(2){
+			&:nth-child(1){
 				button{
 					&:before{
-						background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_hangulday.jpg);
+						background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_koreanculture_brand.jpg);
 					}
 				}
 			}
-			&:nth-child(3){
+			// &:nth-child(3){
+			// 	button{
+			// 		&:before{
+			// 			background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_followgyeonggi.jpg);
+			// 		}
+			// 	}
+			// }
+            &:nth-child(2){
 				button{
 					&:before{
-						background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_koreanculture.jpg);
+						background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_followgyeonggi.png);
+					}
+				}
+			}
+            &:nth-child(3){
+				button{
+					&:before{
+						background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mainbillboard_sns.jpg);
 					}
 				}
 			}
@@ -1530,7 +2088,7 @@ th.fc-day-header.fc-widget-header {
 				text-align: left;
 			}
 			h2 {
-				font-size: 24px;
+				font-size: 16px;
 				text-align: left;
 			}
 			.section.section-banner {
@@ -1577,7 +2135,9 @@ th.fc-day-header.fc-widget-header {
 					.event-list-item {
 						.event-item-thumbnail {
 							padding-left: 0;
-							margin-bottom: 15px;
+							@media only screen and (min-width: 992px) {
+								margin-bottom: 15px;
+							}
 							.event-date-day {
 								padding: 0 !important;
 							}
@@ -1594,6 +2154,10 @@ th.fc-day-header.fc-widget-header {
 							p {
 								height: 63px;
 								text-align: justify;
+								display: -webkit-box;
+								// -webkit-line-clamp: 3;
+								// -webkit-box-orient: vertical;
+								overflow: hidden;
 							}
 						}
 					}
@@ -1916,6 +2480,10 @@ th.fc-day-header.fc-widget-header {
 								color: $color_15 !important;
 							}
 							p {
+								// display: -webkit-box;
+								// -webkit-line-clamp: 3;
+								// -webkit-box-orient: vertical;
+								overflow: hidden;
 								font-size: 14px;
 								text-align: justify;
 							}
@@ -1926,9 +2494,8 @@ th.fc-day-header.fc-widget-header {
 		}
 	}
 	p.desc {
-		b {
-			font-size: 16px !important;
-		}
+		font-size: 20px;
+		color: $color_article;
 	}
 	.head-gibson.main-head {
 		font-family: $font_gibson_semibold;
@@ -2114,5 +2681,120 @@ th.fc-day-header.fc-widget-header {
 @media (min-width:376px) and (max-width:767px) {
 	.tab-content {
 		
+	}
+}
+
+.passport-page{
+	background-color: #ffffff;
+	.marquee-section{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		h2{
+			cursor: pointer;
+			margin: 0;
+			font-size: 16px;
+			color: rgba(69, 79, 99, 0.31);
+			font-family: $font_gibson_semibold;
+			&:hover{
+				color: rgba(69, 79, 99, 0.6);
+			}
+		}
+	}
+	.header-section{
+		h3{
+			font-family: $font_gibson_semibold;
+			font-size: 24px;
+			color: $color_article;
+		}
+		h1 {
+			font-family: $font_gibson_regular;
+			font-size: 32px;
+			color: $color_article;
+			margin-bottom: 0;
+		}
+	}
+
+	.passport-content-section{
+		@media only screen and (min-width: 769px) {
+			padding: 30px;
+		}
+		padding: 15px;
+		border: 1px solid #D7DBE2;
+		border-radius: 30px;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+		.btn-ext-link{
+			color: #ffffff;
+			background-color: #A8BCE5;
+			padding: 10px 20px;
+			font-size: 16px;
+			font-family: $font_helvetica;
+			&:hover{
+				background: darken(#A8BCE5, 10%);
+				text-decoration: none;
+			}
+			
+		}
+		.btn-ext-link-wrapper{
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		h4{
+			font-family: $font_gibson_semibold;
+			font-size: 20px;
+			color: $color_article;
+		}
+		h2{
+			font-family: $font_gibson_semibold;
+			font-size: 32px;
+			color: $color_article;
+			margin-top: 0;
+		}
+		h3{
+			font-family: $font_gibson_semibold;
+			font-size: 24px;
+			color: $color_article;
+		}
+		p{
+			font-size: 16px;
+			color: $color_article;
+			font-family: $font_gibson_regular;
+		}
+		ol{
+			list-style: decimal !important;
+			padding-left: inherit;
+			li{
+				font-size: 16px;
+				color: $color_article;
+				font-family: $font_gibson_regular;
+			}
+		}
+		.passport-body{
+			@media only screen and (min-width: 769px){
+				padding-left: 30px;
+			}
+			margin-top: 30px;
+			margin-bottom: 30px;
+			border-left: 9px solid #8E2778;
+			.sns-wrapper{
+				.sns{
+					img{
+						width: 50px;
+					}
+				}
+			}
+		}
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.separator{	
+		border: 2px dashed #C8C8C8;
+		margin: 0;
+		display: block !important;
+		clear: both;
+	}
+	img.center{
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
