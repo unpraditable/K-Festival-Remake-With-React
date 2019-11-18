@@ -435,7 +435,8 @@ span:hover.btn-link {
       .header-img-container .main-tabs li a.event-anchor {
         background: #002B58; }
       .header-img-container .main-tabs li a.korea-ticket-anchor {
-        background: #00AEF0; }
+        background: #00AEF0;
+        position: relative; }
         .header-img-container .main-tabs li a.korea-ticket-anchor:before {
           position: absolute;
           top: 10%;
