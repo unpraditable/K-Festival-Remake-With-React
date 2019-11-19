@@ -6,7 +6,7 @@ class Header extends Component {
     render() 
     { 
         return (
-            <div className="header-img-container">
+            <header className="header-img-container">
                 <img className="background-body d-block d-sm-none" src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/header-bg.png" width="100%"/>
                 <img className="background-body d-block d-sm-visible" src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/background.jpg" width="100%"/>
                 <div className="container-fluid">
@@ -29,9 +29,9 @@ class Header extends Component {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </header>
         )
-  } 
+    } 
 }   
 
 export default Header; 
