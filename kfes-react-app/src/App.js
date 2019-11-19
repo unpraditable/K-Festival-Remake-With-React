@@ -3,6 +3,8 @@ import Header from './Header.js';
 import Banners from './Banners.js';
 import EventList from './EventList.js';
 import EventMap from './EventMap.js';
+import EventSeo from './EventSeo.js';
+import EventCalendar from './EventCalendar.js';
 
 import {Helmet} from "react-helmet";
 
@@ -20,7 +22,10 @@ function App() {
                     <div role="tabpanel" className="tab-pane active" id="home">
                       <div class="col-12 content no-pad">
                         <EventList></EventList>
+                        <EventCalendar></EventCalendar>
+
                         <EventMap></EventMap>
+                        <EventSeo></EventSeo>
                       </div>
                     </div>
                 </div>		

@@ -919,7 +919,8 @@ span:hover.btn-link {
         height: 30px;
         border-radius: 3px;
         position: absolute;
-        right: -18px; }
+        right: -18px;
+        top: 0; }
         @media only screen and (max-width: 767px) {
           .tab-content #home .section.section-event .event-body .event-list-item .event-item-thumbnail:after {
             width: 15px;
