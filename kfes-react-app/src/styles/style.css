@@ -342,10 +342,6 @@ span:hover.btn-link {
   padding: 10px 20px;
   text-decoration: none; }
 
-@media only screen and (max-width: 992px) {
-  .background-body {
-    margin-top: 50px; } }
-
 .slick-dots li button:before {
   width: 36px;
   height: 36px; }
@@ -380,6 +376,7 @@ span:hover.btn-link {
   border-bottom: 0 !important;
   position: absolute;
   text-align: center;
+  flex-wrap: nowrap;
   display: flex;
   width: 100%;
   justify-content: center; }
@@ -1390,7 +1387,7 @@ span:hover.btn-link {
         border-radius: 3px;
         left: -25px; } }
   .calendar-legend label {
-    color: #AAB1BF;
+    color: #444444;
     margin-left: 5px;
     margin-right: 15px;
     position: relative;
@@ -1441,8 +1438,27 @@ span.circle {
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd; }
 
+.fc-day-number {
+  color: #555555;
+  text-align: center !important;
+  font-weight: bold; }
+
 .fc-event {
   font-family: "Helvetica Neue"; }
+  .fc-event .fc-title {
+    color: white;
+    font-size: 12px; }
+    @media only screen and (max-width: 768px) {
+      .fc-event .fc-title {
+        font-size: 10px; } }
+
+.section-seo {
+  font-size: 0.8em; }
+  .section-seo h2 {
+    font-weight: 700 !important; }
+  @media only screen and (max-width: 768px) {
+    .section-seo p {
+      font-size: 12px; } }
 
 th.fc-day-header.fc-widget-header {
   background: #fff;
@@ -1575,7 +1591,6 @@ th.fc-day-header.fc-widget-header {
     left: -20px; }
 
   .map-containerx {
-    margin: 0 -30px;
     width: auto; }
 
   .map-container-y .image-right {

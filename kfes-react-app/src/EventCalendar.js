@@ -142,7 +142,7 @@ class EventCalendar extends Component {
     {
         return(
             <section className="section section-calendar">
-                <div className="col-xs-12" align="left"> 
+                <div className="col-12" align="left"> 
                     <h2 className="head-gibson main-head"><span className="h2-icon calendar-icon"></span> EVENT CALENDAR OCTOBER & NOVEMBER 2019</h2>
                 </div>
 

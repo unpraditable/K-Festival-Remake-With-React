@@ -8,7 +8,7 @@ class Header extends Component {
         return (
             <header className="header-img-container">
                 <img className="background-body d-block d-sm-none" src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/header-bg.png" width="100%"/>
-                <img className="background-body d-block d-sm-visible" src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/background.jpg" width="100%"/>
+                <img className="background-body d-none d-sm-block" src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/background.jpg" width="100%"/>
                 <div className="container-fluid">
                     <ul className="nav nav-tabs main-tabs" role="tablist">
                         <li role="presentation" className="event-anchor-list">
