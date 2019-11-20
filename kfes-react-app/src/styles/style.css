@@ -511,7 +511,8 @@ span:hover.btn-link {
           padding: 5px; } }
   .header-img-container .main-tabs li.active > a, .header-img-container .main-tabs li > a:focus, .header-img-container .main-tabs li > a:hover {
     background-color: white;
-    border: 5px solid white; }
+    border: 5px solid white;
+    text-decoration: none; }
     .header-img-container .main-tabs li.active > a.event-anchor, .header-img-container .main-tabs li > a:focus.event-anchor, .header-img-container .main-tabs li > a:hover.event-anchor {
       border: 5px solid #002B58;
       color: #002B58; }
@@ -561,6 +562,52 @@ span:hover.btn-link {
           width: 150px; }
         .header-img-container .main-tabs li a.k-sale-festa-anchor {
           width: 150px; } }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 25px;
+  background-color: #444444;
+  background-size: 25px;
+  border-radius: 100%; }
+  @media only screen and (max-width: 768px) {
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+      width: 15px;
+      height: 15px;
+      padding: 15px;
+      background-size: 15px; } }
+
+.carousel-indicators {
+  bottom: -100px; }
+  @media only screen and (max-width: 500px) {
+    .carousel-indicators {
+      bottom: -60px; } }
+  .carousel-indicators li {
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_nonverb_flying.jpg);
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    opacity: 1;
+    border: 1px solid transparent;
+    background-position: center center; }
+    @media only screen and (min-width: 768px) {
+      .carousel-indicators li {
+        width: 120px;
+        height: 70px;
+        border-radius: 10px; } }
+    .carousel-indicators li:nth-child(1) {
+      background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_koreanculture_brand.jpg); }
+    .carousel-indicators li:nth-child(2) {
+      background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_followgyeonggi.png); }
+    .carousel-indicators li:nth-child(3) {
+      background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mainbillboard_sns.jpg); }
+    .carousel-indicators li.active, .carousel-indicators li:hover {
+      border: 1px solid #002046;
+      box-sizing: border-box; }
 
 .container.main .row .nav.nav-tabs {
   background: #fff;
@@ -781,7 +828,11 @@ span:hover.btn-link {
       margin-right: 5px; }
 .tab-content #home .section.section-banner {
   display: block;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 75px; }
+  @media only screen and (max-width: 500px) {
+    .tab-content #home .section.section-banner {
+      margin-bottom: 30px; } }
 .tab-content #home .section.section-mobile-banner {
   display: none;
   padding: 30px 0; }

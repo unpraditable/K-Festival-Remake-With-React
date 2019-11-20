@@ -654,6 +654,7 @@ span {
 		li.active>a, li>a:focus, li>a:hover {
 			background-color: white;
 			border: 5px solid white;
+			text-decoration: none;
 			&.event-anchor{
 				border: 5px solid #002B58;
 				color: #002B58;
@@ -729,6 +730,62 @@ span {
 		}
 	}
 }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+	padding: 25px;
+	background-color: #444444;
+	background-size: 25px;
+	border-radius: 100%;
+	@media only screen and (max-width: 768px){
+		width: 15px;
+		height: 15px;
+		padding: 15px;
+		background-size: 15px;
+	}
+}
+
+.carousel-indicators {
+	@media only screen and (max-width: 500px) {
+		bottom: -60px;
+	}
+	bottom: -100px;
+	li{
+		box-sizing: border-box;
+		background-color: black;
+		background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_nonverb_flying.jpg);
+		overflow:hidden;
+		width: 36px;
+		height: 36px;
+		background-size:cover;
+		opacity: 1;
+		border: 1px solid transparent;
+
+		background-position: center center;
+		@media only screen and (min-width: 768px) {
+			width: 120px;
+			height: 70px;
+			border-radius: 10px;
+		}
+		&:nth-child(1){
+			background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_koreanculture_brand.jpg);
+		}
+		&:nth-child(2){
+			background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mbb_followgyeonggi.png);
+		}
+		&:nth-child(3){
+			background-image: url(https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/billboards/mainbillboard_sns.jpg);
+		}
+		&.active, &:hover{
+			border: 1px solid $color_dark_blue;
+			box-sizing: border-box;
+
+		}
+	}
+}
+
 
 .container.main {
 	
@@ -1037,6 +1094,10 @@ span {
 		.section.section-banner {
 			display: block;
 			padding: 0;
+			margin-bottom: 75px;
+			@media only screen and (max-width: 500px) {
+				margin-bottom: 30px;
+			}
 		}
 		.section.section-mobile-banner {
 			display: none;
