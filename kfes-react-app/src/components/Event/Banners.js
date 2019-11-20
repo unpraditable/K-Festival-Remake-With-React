@@ -1,29 +1,5 @@
 import React, {Component} from 'react'; 
-import Slider from "react-slick";
-import $ from 'jquery';
-
 import Carousel from 'react-bootstrap/Carousel';
-
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
-const bootstrap = require('bootstrap');
-
-function NextArrow(props) {
-    return (
-        <i className="bannerArrow nextArrow glyphicon glyphicon-menu-right">
-
-        </i>
-    );
-  }
-  
-  function PrevArrow(props) {
-    return (
-        <i className="bannerArrow prevArrow glyphicon glyphicon-menu-left">
-
-        </i>
-    );
-  }
 
 class Banners extends Component {
     render()
