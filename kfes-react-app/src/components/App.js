@@ -10,7 +10,7 @@ import {
   useParams,
   useRouteMatch
 } from "react-router-dom";
-import Header from './Event/Header.js';
+import Header from './Header.js';
 
 import {Helmet} from "react-helmet";
 
