@@ -12,10 +12,10 @@ class Header extends Component {
                 <div className="container-fluid">
                     <ul className="nav nav-tabs main-tabs" role="tablist">
                         <li role="presentation" className="event-anchor-list">
-                            <a href="#events" aria-controls="event" className="event-anchor" >Highlight</a>
+                            <a href="/" aria-controls="event" className="event-anchor" >Highlight</a>
                         </li>
                         <li role="presentation" className="korea-ticket-anchor-list">
-                            <a href="#liburan-gratis-ke-korea" title="Liburan Gratis Ke Korea" className="korea-ticket-anchor">Liburan Gratis ke Korea</a>
+                            <a href="/passport" title="Liburan Gratis Ke Korea" className="korea-ticket-anchor">Liburan Gratis ke Korea</a>
                         </li>
                         <li role="presentation" className="k-pop-festival-anchor-list">
                             <a className="k-pop-festival-anchor" href="#k-pop-concert">K-Pop Festival</a>
