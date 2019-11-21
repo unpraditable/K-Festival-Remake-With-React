@@ -651,7 +651,7 @@ span {
 				}
 			}
 		}
-		li.active>a, li>a:focus, li>a:hover {
+		li>a.active, li>a:focus, li>a:hover {
 			background-color: white;
 			border: 5px solid white;
 			text-decoration: none;

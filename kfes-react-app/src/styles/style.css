@@ -509,31 +509,31 @@ span:hover.btn-link {
           min-width: 0;
           height: 50px;
           padding: 5px; } }
-  .header-img-container .main-tabs li.active > a, .header-img-container .main-tabs li > a:focus, .header-img-container .main-tabs li > a:hover {
+  .header-img-container .main-tabs li > a.active, .header-img-container .main-tabs li > a:focus, .header-img-container .main-tabs li > a:hover {
     background-color: white;
     border: 5px solid white;
     text-decoration: none; }
-    .header-img-container .main-tabs li.active > a.event-anchor, .header-img-container .main-tabs li > a:focus.event-anchor, .header-img-container .main-tabs li > a:hover.event-anchor {
+    .header-img-container .main-tabs li > a.active.event-anchor, .header-img-container .main-tabs li > a:focus.event-anchor, .header-img-container .main-tabs li > a:hover.event-anchor {
       border: 5px solid #002B58;
       color: #002B58; }
-    .header-img-container .main-tabs li.active > a.korea-ticket-anchor, .header-img-container .main-tabs li > a:focus.korea-ticket-anchor, .header-img-container .main-tabs li > a:hover.korea-ticket-anchor {
+    .header-img-container .main-tabs li > a.active.korea-ticket-anchor, .header-img-container .main-tabs li > a:focus.korea-ticket-anchor, .header-img-container .main-tabs li > a:hover.korea-ticket-anchor {
       border: 5px solid #00AEF0;
       color: #00AEF0; }
-      .header-img-container .main-tabs li.active > a.korea-ticket-anchor:before, .header-img-container .main-tabs li > a:focus.korea-ticket-anchor:before, .header-img-container .main-tabs li > a:hover.korea-ticket-anchor:before {
+      .header-img-container .main-tabs li > a.active.korea-ticket-anchor:before, .header-img-container .main-tabs li > a:focus.korea-ticket-anchor:before, .header-img-container .main-tabs li > a:hover.korea-ticket-anchor:before {
         background-image: url(../img/camar-left-biru.png); }
-      .header-img-container .main-tabs li.active > a.korea-ticket-anchor:after, .header-img-container .main-tabs li > a:focus.korea-ticket-anchor:after, .header-img-container .main-tabs li > a:hover.korea-ticket-anchor:after {
+      .header-img-container .main-tabs li > a.active.korea-ticket-anchor:after, .header-img-container .main-tabs li > a:focus.korea-ticket-anchor:after, .header-img-container .main-tabs li > a:hover.korea-ticket-anchor:after {
         background-image: url(../img/camar-right-biru.png); }
-    .header-img-container .main-tabs li.active > a.k-pop-festival-anchor, .header-img-container .main-tabs li > a:focus.k-pop-festival-anchor, .header-img-container .main-tabs li > a:hover.k-pop-festival-anchor {
+    .header-img-container .main-tabs li > a.active.k-pop-festival-anchor, .header-img-container .main-tabs li > a:focus.k-pop-festival-anchor, .header-img-container .main-tabs li > a:hover.k-pop-festival-anchor {
       color: #F6AB39;
       border: 5px solid #F6AB39; }
-    .header-img-container .main-tabs li.active > a.performance-ticket-anchor, .header-img-container .main-tabs li > a:focus.performance-ticket-anchor, .header-img-container .main-tabs li > a:hover.performance-ticket-anchor {
+    .header-img-container .main-tabs li > a.active.performance-ticket-anchor, .header-img-container .main-tabs li > a:focus.performance-ticket-anchor, .header-img-container .main-tabs li > a:hover.performance-ticket-anchor {
       border: 5px solid #A5238F;
       color: #A5238F; }
-      .header-img-container .main-tabs li.active > a.performance-ticket-anchor:before, .header-img-container .main-tabs li > a:focus.performance-ticket-anchor:before, .header-img-container .main-tabs li > a:hover.performance-ticket-anchor:before {
+      .header-img-container .main-tabs li > a.active.performance-ticket-anchor:before, .header-img-container .main-tabs li > a:focus.performance-ticket-anchor:before, .header-img-container .main-tabs li > a:hover.performance-ticket-anchor:before {
         background-image: url(../img/stars.png); }
-      .header-img-container .main-tabs li.active > a.performance-ticket-anchor:after, .header-img-container .main-tabs li > a:focus.performance-ticket-anchor:after, .header-img-container .main-tabs li > a:hover.performance-ticket-anchor:after {
+      .header-img-container .main-tabs li > a.active.performance-ticket-anchor:after, .header-img-container .main-tabs li > a:focus.performance-ticket-anchor:after, .header-img-container .main-tabs li > a:hover.performance-ticket-anchor:after {
         background-image: url(../img/mic.png); }
-    .header-img-container .main-tabs li.active > a.k-sale-festa-anchor, .header-img-container .main-tabs li > a:focus.k-sale-festa-anchor, .header-img-container .main-tabs li > a:hover.k-sale-festa-anchor {
+    .header-img-container .main-tabs li > a.active.k-sale-festa-anchor, .header-img-container .main-tabs li > a:focus.k-sale-festa-anchor, .header-img-container .main-tabs li > a:hover.k-sale-festa-anchor {
       border: 5px solid #DC3433;
       color: #DC3433; }
   @media only screen and (max-width: 700px) {

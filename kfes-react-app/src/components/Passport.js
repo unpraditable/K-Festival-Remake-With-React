@@ -18,7 +18,6 @@ class Passport extends Component {
                                 <h2 onclick="smoothScroll('#sns-competition')">SNS</h2>
                             </div>
                         </div>
-                        
                     </section>
 
                     <section className="col-12 header-section">
@@ -42,7 +41,7 @@ class Passport extends Component {
                         </div>
 
                         <div className="row">
-                            <div className="col-sm-8 col-sm-offset-2">
+                            <div className="col-sm-8 ml-sm-auto mr-sm-auto">
                                 <img src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/passport.jpg" className="img-fluid" alt="Passport to K-Festival" />
                             </div>
                         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Events from './Events.js';
 import Passport from './Passport.js';
+import FreeTicket from './FreeTicket.js';
 
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ import {Helmet} from "react-helmet";
 
 function App() {
   return (
+    <Router>
       <div class="k-festival-wrap">
       <Helmet>
           <title>iLOTTE K-Festival</title>
@@ -29,7 +31,6 @@ function App() {
             <div className="row">
                 <div className="tab-content">
                     <div role="tabpanel" className="tab-pane active" id="home">
-                      <Router>
                         <Switch>
                           <Route exact path="/">
                             <Events></Events>
@@ -37,13 +38,17 @@ function App() {
                           <Route path="/passport">
                             <Passport></Passport>
                           </Route>
+                          <Route path="/free-ticket">
+                            <FreeTicket></FreeTicket>
+                          </Route>
                         </Switch>
-                      </Router>
                     </div>
                 </div>		
             </div>
         </div>
       </div>
+    </Router>
+      
             	
   );
 }
