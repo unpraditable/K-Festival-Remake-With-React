@@ -18,7 +18,7 @@ import {Helmet} from "react-helmet";
 function App() {
   return (
     <Router>
-      <div class="k-festival-wrap">
+      <div className="k-festival-wrap">
       <Helmet>
           <title>iLOTTE K-Festival</title>
           <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 

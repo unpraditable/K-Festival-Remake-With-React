@@ -9,7 +9,7 @@ class Events extends Component {
     render()
     {
         return (
-            <div class="col-12 content no-pad">
+            <div className="col-12 content no-pad">
                 <Banners></Banners>
                 <EventList></EventList>
                 <EventCalendar></EventCalendar>

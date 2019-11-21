@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class FreeTicket extends Component {
     render() {
         return (
-        <div class="col-12 content no-pad">
+        <div className="col-12 content no-pad">
             <section className="col-12 section section-event">
                 <div className="col-12" align="left">
                     <h2 className="head-gibson main-head">TANGGAL</h2>
