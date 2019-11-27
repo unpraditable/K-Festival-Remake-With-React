@@ -3,6 +3,7 @@
         "event_list": [
             {
                 "id": 1,
+                "date" : "17 <span class=\"event-date-month\">SEPT</span> <br/> - <br/> 31 <span class=\"event-date-month\">OCT</span> ",
                 "title": "Korean Bazaar - On Sale",
                 "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/poster_thumb_koreanbazaar.jpg",
                 "location": "Central Park, Promenade Laguna",
@@ -13,6 +14,7 @@
             },
             {
                 "id": 2,
+                "date" : "01 - 31 <span class=\"event-date-month\">OCT</span>",
                 "title": "Korean Food Festival 'Korea Dekat Di Hati'",
                 "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/poster_thumb_dekatdihati.jpg",
                 "location": "Legenda Wisata",
@@ -23,6 +25,7 @@
             },
             {
                 "id": 3,
+                "date" : "03 - 06 <span class=\"event-date-month\">OCT</span>",
                 "title": "K-Content Expo",
                 "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DK-Content%20Expo.jpeg",
                 "location": "Central Park Mall",
@@ -33,6 +36,7 @@
             },
             {
                 "id": 4,
+                "date" : "03 - 13 <span class=\"event-date-month\">OCT</span>",
                 "title": "Hangul Day (Hari Huruf Korea)",
                 "image": "https://ecm-stg-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DHangul%20Day.jpg",
                 "location": "Korean Culture Center",
@@ -43,6 +47,7 @@
             },
             {
                 "id": 5,
+                "date" : "09 <span class=\"event-date-month\">OCT</span>",
                 "title": "Korea-Indonesia Film Festival 2019",
                 "image": "https://ecm-stg-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DKorea%20Indonesia%20Film%20Festival.jpg",
                 "location": "CGV Cinemas",

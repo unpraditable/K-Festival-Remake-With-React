@@ -30,20 +30,8 @@ class EventList extends Component {
                     this.state.events.map(event => 
                         <div className="col-12 event-list-item row">
                             <div className={ `col-2 col-md-1 event-item-thumbnail ${event.category}` }>
-                                <div className="col-12 event-date-day" align="left">
-                                    17
-                                </div>
-                                <div className="col-12 event-date-month">
-                                    SEPT
-                                </div>
-                                <div className="col-12 event-date-month">
-                                    -
-                                </div>
-                                <div className="col-12 event-date-day" align="left">
-                                    31
-                                </div>
-                                <div className="col-12 event-date-month">
-                                    OCT
+                                <div className="col-12 event-date-day" dangerouslySetInnerHTML={ {__html: event.date} }>
+                                    
                                 </div>
                             </div>
                             <div className="col-5 col-md-3 event-thumb">
