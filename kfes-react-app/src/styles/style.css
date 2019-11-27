@@ -1168,6 +1168,7 @@ span:hover.btn-link {
       opacity: 1; }
 
 .event-detail {
+  padding-top: 30px;
   background: white;
   font-family: "Gibson Regular";
   color: #454F63;

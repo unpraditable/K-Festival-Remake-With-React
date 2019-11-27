@@ -2,6 +2,7 @@ import React from 'react';
 import Events from './Events.js';
 import Passport from './Passport.js';
 import FreeTicket from './FreeTicket.js';
+import EventDetail from './EventDetail/EventDetail.js';
 
 import {
   BrowserRouter as Router,
@@ -41,6 +42,8 @@ function App() {
                           <Route path="/free-ticket">
                             <FreeTicket></FreeTicket>
                           </Route>
+                          <EventDetail></EventDetail>
+
                         </Switch>
                     </div>
                 </div>		

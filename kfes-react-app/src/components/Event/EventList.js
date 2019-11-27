@@ -1,6 +1,7 @@
-import React, {Component} from 'react'; 
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import axios from 'axios';
-import EventMap from './EventMap';
+import EventDetail from '../EventDetail/EventDetail.js';
 
 class EventList extends Component {
 
@@ -14,7 +15,6 @@ class EventList extends Component {
             const events = res.data.data.event_list;
             this.setState({ events });
             console.log(events);
-
         })
     }
 
@@ -31,7 +31,7 @@ class EventList extends Component {
                         <div className="col-12 event-list-item row">
                             <div className={ `col-2 col-md-1 event-item-thumbnail ${event.category}` }>
                                 <div className="col-12 event-date-day" dangerouslySetInnerHTML={ {__html: event.date} }>
-                                    
+
                                 </div>
                             </div>
                             <div className="col-5 col-md-3 event-thumb">
@@ -48,9 +48,11 @@ class EventList extends Component {
                                 </a>
                                 <label className="event-label">{event.category}</label>
                                 <p className="excerpt d-none d-sm-block">{event.excerpt}</p>
-                                <a href={event.slug} title={event.title} className="view-button d-none d-sm-block">
-                                    VIEW DETAIL <span className="glyphicon glyphicon-chevron-right"></span>
-                                </a>
+
+                                <Link to={event.slug} title={event.title} className="view-button d-none d-sm-block">
+                                    VIEW DETAIL 
+                                    <span className="glyphicon glyphicon-chevron-right"></span>
+                                </Link>
                             </div>
                         </div>
                     )
