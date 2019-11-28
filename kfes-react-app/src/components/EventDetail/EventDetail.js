@@ -27,7 +27,6 @@ class EventDetail extends Component {
             const event = res.data.data.event_detail;
             var eventItem = findSlug(event, slug);
             this.setState({eventItem});
-            console.log(eventItem);
         })
     }
 
@@ -54,6 +53,33 @@ class EventDetail extends Component {
                             </div>
                             <hr/>
                             <p className="desc" dangerouslySetInnerHTML={ {__html: item.content} }></p>
+
+                            <div className="event-sns-wrapper">
+                            { 
+                                item.twitter_link ? (
+                                    <a href={item.twitter_link}  title="KCC Indonesia Twitter" className="event-sns">
+                                        <img src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/sns-button-twitter.png" alt="Twitter Icon" />
+                                    </a>
+                                ) : (null)
+                            }
+
+                            { 
+                                item.facebook_link ? (
+                                    <a href={item.facebook_link}   title="KCC Indonesia Facebook" className="event-sns">
+                                        <img src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/sns-button-facebook.png" alt="Facebook Icon" />
+                                    </a>
+                                ) : (null)
+                            }
+
+                            { 
+                                item.instagram_link ? (
+                                    <a href={item.instagram_link}   title="KCC Indonesia Instagram" className="event-sns">
+                                        <img src="https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/sns-button-instagram.png" alt="Instagram Icon" />
+                                    </a>
+                                ) : (null)
+                            }
+                                
+                            </div>
                             
                         </div>
                     )

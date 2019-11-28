@@ -14,7 +14,6 @@ class EventList extends Component {
         .then(res => {
             const events = res.data.data.event_list;
             this.setState({ events });
-            console.log(events);
         })
     }
 
@@ -35,12 +34,12 @@ class EventList extends Component {
                                 </div>
                             </div>
                             <div className="col-5 col-md-3 event-thumb">
-                                <a href={event.slug} title={event.title}>
+                                <a href={ `events/${event.slug}` }  title={event.title}>
                                     <img src={event.image} width="100%" alt={`${event.title} Thumbnail`} />
                                 </a>
                             </div>
                             <div className="col-5 col-md-8 event-item-caption">
-                                <a href={event.slug} title={event.title}>
+                                <a href={ `events/${event.slug}` }title={event.title}>
                                     <h3>{event.title}</h3>
                                 </a>
                                 <a href={event.location_map} title={event.location} >
@@ -49,7 +48,7 @@ class EventList extends Component {
                                 <label className="event-label">{event.category}</label>
                                 <p className="excerpt d-none d-sm-block">{event.excerpt}</p>
 
-                                <Link to={event.slug} title={event.title} className="view-button d-none d-sm-block">
+                                <Link to={ `events/${event.slug}` } exact title={event.title} className="view-button d-none d-sm-block">
                                     VIEW DETAIL 
                                     <span className="glyphicon glyphicon-chevron-right"></span>
                                 </Link>

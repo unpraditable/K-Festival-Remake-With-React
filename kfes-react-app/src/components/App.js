@@ -42,10 +42,8 @@ function App() {
                           <Route path="/free-ticket">
                             <FreeTicket></FreeTicket>
                           </Route>
-                          <Route path="/:slug" component={EventDetail}>
+                          <Route exact path="/events/:slug" component=     {EventDetail}>
                           </Route>
-                          
-
                         </Switch>
                     </div>
                 </div>		
