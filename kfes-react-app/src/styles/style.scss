@@ -993,10 +993,14 @@ span {
 			font-family: $font_helvetica;
 		}
 		.section-navigation{
-			margin-top: 15px;
+			padding: 15px;
+			padding-bottom: 20px;
 			@media only screen and (min-width: 768px) {
 				padding-left: 30px;
 				padding-right: 30px;
+			}
+			a{
+				cursor: pointer;
 			}
 			.live-now-wrapper{
 				display: inline-block;
@@ -1060,7 +1064,7 @@ span {
 				color: $color_article;
 				font-family: $font_gibson_semibold;
 				font-size: 15px;
-				margin-right: 15px;
+				// margin-right: 15px;
 				margin-left: 15px;
 				display: flex;
 				align-items: center;
@@ -1093,7 +1097,9 @@ span {
 		}
 		.section.section-banner {
 			display: block;
-			padding: 0;
+			padding: 15px;
+			padding-right: 30px;
+			padding-left: 30px;
 			margin-bottom: 75px;
 			@media only screen and (max-width: 500px) {
 				margin-bottom: 30px;
@@ -1568,6 +1574,10 @@ span {
 	}
 }
 
+.tab-content{
+	background: white;
+}
+
 .event-detail {
 	padding-top: 30px;
 	background: white;
@@ -2040,6 +2050,7 @@ span.circle {
 	font-size: 14px;
 	border-radius: 5px;
 	font-weight: 100;
+	text-transform: uppercase;
 }
 .fc-day-grid-event {
 	>.fc-content {

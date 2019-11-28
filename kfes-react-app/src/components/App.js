@@ -34,6 +34,7 @@ function App() {
                     <div role="tabpanel" className="tab-pane active" id="home">
                         <Switch>
                           <Route exact path="/">
+                            
                             <Events></Events>
                           </Route>
                           <Route path="/passport">

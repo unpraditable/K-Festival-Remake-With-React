@@ -5,7 +5,7 @@ class Banners extends Component {
     render()
     {
         return (
-            <section className="col-xs-12 section section-banner">
+            <section className="col-12 section section-banner">
                 <Carousel>
                 <Carousel.Item>
                     <a href="#korea-indonesia-film-festival" title="Korea Indonesia Film Festival">

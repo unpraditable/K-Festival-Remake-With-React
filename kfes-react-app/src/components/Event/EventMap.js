@@ -4,7 +4,7 @@ class EventMap extends Component {
     render()
     {
         return(
-            <section className="col-12 section section-map">
+            <section name="event-map" className="col-12 section section-map">
                 <div className="inner-section">
                     <div className="col-12" align="left">
                         <h2 className="head-gibson main-head"><i className="h2-icon map-marker-icon"></i> JAKARTA EVENT MAP</h2>

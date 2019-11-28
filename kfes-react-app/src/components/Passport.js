@@ -1,4 +1,5 @@
 import React, {Component} from 'react'; 
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Passport extends Component {
     render()
@@ -6,18 +7,25 @@ class Passport extends Component {
         return (
             <div className="row passport-page">
                 <div className="col-sm-10 ml-sm-auto mr-sm-auto">
-                    <section className="col-12 marquee-section hidden-xs" >
+                    <section className="col-12 marquee-section" >
                         <div className="row">
                             <div className="col-5">
-                                <h2 onclick="smoothScroll('#passport-to-korea')">PASSPORT TO KOREA</h2>
+                                <h2>
+                                    <Link to="passport-to-korea" smooth={true}>PASSPORT TO KOREA</Link>
+                                </h2>
                             </div>
                             <div className="col-6">
-                                <h2 onclick="smoothScroll('#temukan-mimpimu')">TEMUKAN MIMPIMU & INSPIRASIMU</h2>
+                                <h2>
+                                    <Link to="temukan-mimpimu" smooth={true}>TEMUKAN MIMPIMU & INSPIRASIMU</Link>
+                                </h2>
                             </div>
                             <div className="col-1">
-                                <h2 onclick="smoothScroll('#sns-competition')">SNS</h2>
+                                <h2>
+                                    <Link to="sns-competition" smooth={true}>SNS</Link>
+                                </h2>
                             </div>
                         </div>
+                        
                     </section>
 
                     <section className="col-12 header-section">
@@ -29,7 +37,7 @@ class Passport extends Component {
                         </div>
                     </section>
 
-                    <section id="passport-to-korea" className="col-12 passport-content-section">
+                    <section name="passport-to-korea" id="passport-to-korea" className="col-12 passport-content-section">
                         <div className="row">
                             <div className="col-12 passport-content-header">
                                 <h4>PASSPORT TO KOREA</h4>
@@ -76,7 +84,7 @@ class Passport extends Component {
 
                     <hr className="separator" />
 
-                    <section id="temukan-mimpimu" className="col-12 passport-content-section">
+                    <section name="temukan-mimpimu" id="temukan-mimpimu" className="col-12 passport-content-section">
                         <div className="row">
                             <div className="col-12 passport-content-header">
                                 <h4>PASSPORT TO KOREA</h4>
@@ -110,7 +118,7 @@ class Passport extends Component {
 
                     <hr className="separator" />
 
-                    <section id="sns-competition" className="col-12 passport-content-section">
+                    <section name="sns-competition" id="sns-competition" className="col-12 passport-content-section">
                         <div className="row">
                             <div className="col-12 passport-content-header">
                                 <h4>SNS Promo</h4>
