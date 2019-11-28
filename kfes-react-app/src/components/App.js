@@ -42,7 +42,9 @@ function App() {
                           <Route path="/free-ticket">
                             <FreeTicket></FreeTicket>
                           </Route>
-                          <EventDetail></EventDetail>
+                          <Route path="/:slug" component={EventDetail}>
+                          </Route>
+                          
 
                         </Switch>
                     </div>
