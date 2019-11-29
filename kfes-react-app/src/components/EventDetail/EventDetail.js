@@ -1,6 +1,7 @@
 import React, {Component} from 'react'; 
 import { withRouter } from "react-router";
 import axios from 'axios';
+import {Helmet} from "react-helmet";
 
 function findSlug(data, slug) {
     let array = [];
@@ -36,7 +37,11 @@ class EventDetail extends Component {
                 <div className="col-12 event-detail">
                 {
                     this.state.eventItem.map(item =>
+                        
                         <div className="col-sm-10 ml-auto mr-auto">
+                            <Helmet>
+                                <title>iLOTTE - {item.title}</title>
+                            </Helmet>
                             <h1 className="heading">{item.title}</h1>
                             <p className="event-detail-date">
                                 <strong dangerouslySetInnerHTML={ {__html: item.date} }></strong>

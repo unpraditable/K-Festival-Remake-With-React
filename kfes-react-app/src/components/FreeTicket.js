@@ -1,9 +1,13 @@
 import React, {Component} from 'react'; 
+import {Helmet} from "react-helmet";
 
 class FreeTicket extends Component {
     render() {
         return (
         <div className="col-12 content no-pad">
+            <Helmet>
+                <title>iLOTTE - Free Performance Ticket</title>
+            </Helmet>
             <section className="col-12 section section-event">
                 <div className="col-12" align="left">
                     <h2 className="head-gibson main-head">TANGGAL</h2>

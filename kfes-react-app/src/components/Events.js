@@ -11,6 +11,7 @@ class Events extends Component {
     {
         return (
             <div className="col-12 content no-pad">
+                
                 <section class="col-12 section section-navigation">
                     <Link to="event-map" smooth={true} class="anchor-wrapper map-anchor-wrapper float-right d-none d-sm-block">
                         MAP

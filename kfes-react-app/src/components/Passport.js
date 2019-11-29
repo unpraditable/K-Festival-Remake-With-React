@@ -1,11 +1,15 @@
 import React, {Component} from 'react'; 
 import { Link, animateScroll as scroll } from "react-scroll";
+import {Helmet} from "react-helmet";
 
 class Passport extends Component {
     render()
     {
         return (
             <div className="row passport-page">
+                <Helmet>
+                    <title>iLOTTE - Passport to Korea</title>
+                </Helmet>
                 <div className="col-sm-10 ml-sm-auto mr-sm-auto">
                     <section className="col-12 marquee-section" >
                         <div className="row">
