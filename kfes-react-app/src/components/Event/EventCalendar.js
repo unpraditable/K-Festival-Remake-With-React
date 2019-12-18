@@ -9,8 +9,6 @@ let kPerformanceColor = '#11B8E0';
 let kExhibitionColor = '#A25099';
 let kFoodColor = '#ED1A3B';
 class EventCalendar extends Component {
-    
-    
     state = 
     {
         defaultView: 'month',

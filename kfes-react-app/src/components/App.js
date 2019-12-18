@@ -33,8 +33,7 @@ function App() {
                 <div className="tab-content">
                     <div role="tabpanel" className="tab-pane active" id="home">
                         <Switch>
-                          <Route exact path="/">
-                            
+                          <Route exact path="/"> 
                             <Events></Events>
                           </Route>
                           <Route path="/passport">
@@ -43,7 +42,7 @@ function App() {
                           <Route path="/free-ticket">
                             <FreeTicket></FreeTicket>
                           </Route>
-                          <Route exact path="/events/:slug" component=     {EventDetail}>
+                          <Route exact path="/events/:slug" component={EventDetail}>
                           </Route>
                         </Switch>
                     </div>
