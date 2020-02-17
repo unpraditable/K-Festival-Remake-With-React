@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/K-Festival-Remake-With-React/precache-manifest.b6c02e312928bb94003b26239e7e81cf.js"
+  "/K-Festival-Remake-With-React/precache-manifest.b52cbcefd3c00ea833b9feb64c106c7b.js"
 );
 
 self.addEventListener('message', (event) => {
