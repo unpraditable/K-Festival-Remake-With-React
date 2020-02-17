@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48444bdf0dc1fad6cff09310734acd59",
+    "revision": "5e450cb0f49f1110a7f8b905fbe4d90a",
     "url": "/K-Festival-Remake-With-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/K-Festival-Remake-With-React/static/css/2.58c81cd9.chunk.css"
   },
   {
-    "revision": "28ce80327e08d26f9f78",
+    "revision": "f62889a1dfb339e843bc",
     "url": "/K-Festival-Remake-With-React/static/css/main.6fe6ff29.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/K-Festival-Remake-With-React/static/js/2.12bd3561.chunk.js"
   },
   {
-    "revision": "28ce80327e08d26f9f78",
-    "url": "/K-Festival-Remake-With-React/static/js/main.596cd0c5.chunk.js"
+    "revision": "f62889a1dfb339e843bc",
+    "url": "/K-Festival-Remake-With-React/static/js/main.68eda4d3.chunk.js"
   },
   {
     "revision": "c31f8d2d19ab8ae8b1a9",
