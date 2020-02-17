@@ -21,9 +21,9 @@ class Header extends Component {
                             <NavLink to="/passport" title="Liburan Gratis Ke Korea" className="korea-ticket-anchor"  activeClassName="active">Liburan Gratis ke Korea</NavLink>
                             {/* <a href="/passport" title="Liburan Gratis Ke Korea" className="korea-ticket-anchor">Liburan Gratis ke Korea</a> */}
                         </li>
-                        <li role="presentation" className="k-pop-festival-anchor-list">
+                        {/* <li role="presentation" className="k-pop-festival-anchor-list">
                             <a className="k-pop-festival-anchor" href="#k-pop-concert">K-Pop Festival</a>
-                        </li>
+                        </li> */}
                         
                         <li role="presentation" className="performance-ticket-anchor-list">
                             <NavLink className="performance-ticket-anchor" to="free-ticket" title="Tiket Pertunjukkan Gratis">Tiket Pertunjukkan Gratis</NavLink>
