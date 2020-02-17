@@ -23,7 +23,7 @@ class EventDetail extends Component {
 
     componentDidMount() {
         const slug = this.props.match.params.slug;
-    axios.get(`http://localhost:3000/data/EventDetail.json`)
+    axios.get(`https://unpraditable.github.io/K-Festival-Remake-With-React/data/EventDetail.json`)
         .then(res => {
             const event = res.data.data.event_detail;
             var eventItem = findSlug(event, slug);

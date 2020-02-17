@@ -10,7 +10,7 @@ class EventList extends Component {
     }
 
     componentDidMount() {
-    axios.get(`http://localhost:3000/data/EventList.json`)
+    axios.get(`https://unpraditable.github.io/K-Festival-Remake-With-React/data/EventDetail.json`)
         .then(res => {
             const events = res.data.data.event_list;
             this.setState({ events });
