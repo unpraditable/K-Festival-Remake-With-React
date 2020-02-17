@@ -34,14 +34,14 @@ class EventList extends Component {
                                 </div>
                             </div>
                             <div className="col-5 col-md-3 event-thumb">
-                                <a href={ `events/${event.slug}` }  title={event.title}>
+                                <Link to={ `events/${event.slug}` }  title={event.title}>
                                     <img src={event.image} width="100%" alt={`${event.title} Thumbnail`} />
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-5 col-md-8 event-item-caption">
-                                <a href={ `events/${event.slug}` }title={event.title}>
+                                <Link to={ `events/${event.slug}` } title={event.title}>
                                     <h3>{event.title}</h3>
-                                </a>
+                                </Link>
                                 <a href={event.location_map} title={event.location} >
                                     <h4>{event.location}</h4>
                                 </a>

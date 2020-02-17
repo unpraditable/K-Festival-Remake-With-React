@@ -11,7 +11,7 @@ class Passport extends Component {
                     <title>iLOTTE - Passport to Korea</title>
                 </Helmet>
                 <div className="col-sm-10 ml-sm-auto mr-sm-auto">
-                    <section className="col-12 marquee-section" >
+                    <section className="col-12 marquee-section d-none d-sm-block" >
                         <div className="row">
                             <div className="col-5">
                                 <h2>
