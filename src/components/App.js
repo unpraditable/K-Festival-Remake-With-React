@@ -19,7 +19,7 @@ import {Helmet} from "react-helmet";
 
 function App() {
   return (
-    <Router basename="K-Festival-Remake-With-React">
+    <HashRouter basename='/'>
       <div className="k-festival-wrap">
         <Helmet>
             <title>iLOTTE K-Festival</title>
@@ -51,7 +51,7 @@ function App() {
             </div>
         </div>
       </div>
-    </Router>
+    </HashRouter>
       
             	
   );
