@@ -7,6 +7,7 @@ import EventDetail from './EventDetail/EventDetail.js';
 import {
   BrowserRouter as Router,
   Switch,
+  HashRouter,
   Route,
   Link,
   useParams,
@@ -18,7 +19,7 @@ import {Helmet} from "react-helmet";
 
 function App() {
   return (
-    <Router>
+    <Router basename="K-Festival-React-App">
       <div className="k-festival-wrap">
         <Helmet>
             <title>iLOTTE K-Festival</title>
