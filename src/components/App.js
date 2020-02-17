@@ -19,7 +19,7 @@ import {Helmet} from "react-helmet";
 
 function App() {
   return (
-    <Router basename="K-Festival-React-App">
+    <Router basename="K-Festival-Remake-With-React">
       <div className="k-festival-wrap">
         <Helmet>
             <title>iLOTTE K-Festival</title>
