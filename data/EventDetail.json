@@ -1,0 +1,81 @@
+{
+    "data": {
+        "event_detail": [
+            {
+                "id": 1,
+                "date" : "17 September - 31 Oktober 2019",
+                "title": "Korean Bazaar - On Sale",
+                "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/korean-bazaar-on-sale.jpeg",
+                "location_title": "Central Park Mall",
+                "location": "VENUE: <br/> Central Park Mall, Jakarta Barat <br/>Ground Floor (GF), Promenade Laguna <br/>Dekat pintu masuk lobby Lumina dan Laguna, depan SOGO & Mango.",
+                "location_map": "https://g.page/CentralParkMallJkt",
+                "category": "k-exhibition",
+                "slug": "korean-bazaar-on-sale",
+                "content": "iLotte Pop Up Store Experience: <br/> <br/> Menampilkan dan memperkenalkan produk-produk eksklusif asli dari Korea. Customer dapat melihat dan mencoba produk-produk dari brand-brand terlaris di Korea seperti MARHEN.J, MLB, SOMEBYMI, KLAVUU, berbagai macam album K-Pop, BT21, dan 400 brand Korea lainnya langsung di offline booth iLotte. <br/> <br/> For more details, please visit: <br/> Instagram @kmall_ilotte <br/> <a href=\"https://www.instagram.com/kmall_ilotte/\"><p class=\"desc\">https://www.instagram.com/kmall_ilotte/</p></a> <br/> Instagram @ilotte_id <br/>  <a href=\"https://www.instagram.com/ilotte_id/\"><p class=\"desc\">https://www.instagram.com/ilotte_id/</p></a>",
+                "twitter_link" : "",
+                "facebook_link" : "",
+                "instagram_link" : ""
+            },
+            {
+                "id": 2,
+                "date" : "1 - 31 Oktober 2019",
+                "title": "Korean Food Festival 'Korea Dekat Di Hati'",
+                "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DKorean%20Food%20Festival%202019.jpeg",
+                "location_title": "Legenda Wisata",
+                "location": "Legenda Wisata",
+                "location_map": "https://goo.gl/maps/4YeixvACHtQbsCAP8",
+                "category": "k-food",
+                "slug": "korean-food-festival",
+                "content": "Nikmati aneka ragam produk makanan Korea, seperti mie instan, minuman, camilan, hingga buah-buahan. Acara yang berlangsung selama sebulan di GS Supermarket Indonesia (Legenda Wisata, Cipondoh, Jatiasih, Kemang Pratama dan Jati Bening) ini mengusung tema “Korea Dekat Di Hati”. <br/><br/> Pertunjukan utama (26 Oktober 2019, GS Supermarket Cipondoh) menghadirkan Korean Food Bazaar, Taekwondo Performance, 101 Korean Culture Talkshow, Cooking Competition, Noraebang CornerFlow Photo Competition, Drawing Competiton, dan K-Pop Dance Cover Competition. Jangan ketinggalan juga Korean Food Bazaar (5-6, 12-13, 19-20, 2627 Oktober 2019) di seluruh cabang GS Supermarket.",
+                "twitter_link" : "",
+                "facebook_link" : "https://www.facebook.com/story.php?story_fbid=2449245231980978&id=1718157581756417",
+                "instagram_link" : "https://www.instagram.com/tasteoflovekfood/"
+            },
+            {
+                "id": 3,
+                "date" : "3 - 6 October 2019",
+                "title": "K-Content Expo",
+                "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DK-Content%20Expo.jpeg",
+                "location_title": "Central Park Mall",
+                "location": "Central Park Mall",
+                "location_map": "https://g.page/CentralParkMallJkt",
+                "category": "k-content",
+                "slug": "k-content-expo-2019",
+                "content": "Korea Creative Content Agency (KOCCA) dengan bangga memperkenalkan siaran, game, animasi / karakter Korea yang berkualitas kepada Indonesia.<br/><br/>Pengunjung dapat menikmati beragam konten Korea sekaligus. Ada beberapa acara khusus seperti pameran konten, pemutaran K-drama / K-animation, acara temu sapa dengan artis, kelas K-beauty makeup dan masih banyak lagi.",
+                "twitter_link" : "https://twitter.com/kcc_indonesia",
+                "facebook_link" : "https://www.facebook.com/KCCIndonesia/",
+                "instagram_link" : "https://www.instagram.com/kcc.id/"
+            },
+            {
+                "id": 4,
+                "date" : "9 Oktober 2019",
+                "title": "Hangul Day (Hari Huruf Korea)",
+                "image": "https://ecm-stg-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DHangul%20Day.jpg",
+                "location_title": "Korea Culture Center",
+                "location": "Korean Culture Center",
+                "location_map": "https://goo.gl/maps/syB4euKP23G6jhSN6",
+                "category": "k-content",
+                "slug": "hangul-day",
+                "content": "Hari Hangeul adalah hari untuk memperingati penciptaan Hangeul atau huruf asli Korea. Pada masa Dinasti Joseon Raja Sejong menciptakan Hangeul karena huruf Tiongkok yang digunakan pada saat itu dianggap sulit oleh rakyat biasa. <br/><br/> Hangeul memiliki sistem penulisan yang ilmiah. Huruf konsonan dan vocal Hangeul memiliki bentuk sesuai dengan bentuk mulut ketika mengucapkan huruf tersebut. Pengunjung dapat belajar dan menikmati kegiatan tentang huruf dan budaya Korea.",
+                "twitter_link" : "https://twitter.com/kcc_indonesia",
+                "facebook_link" : "https://www.facebook.com/KCCIndonesia/",
+                "instagram_link" : "https://www.instagram.com/kcc.id/"
+            },
+            {
+                "id": 5,
+                "date" : "10 - 13 Oktober 2019",
+                "title": "Korea-Indonesia Film Festival 2019",
+                "image": "https://ecm-stg-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DKorea%20Indonesia%20Film%20Festival.jpg",
+                "location_title": "CGV Cinemas",
+                "location": "CGV Cinemas",
+                "location_map": "https://goo.gl/maps/NvpX6iwcuPbRUswy8",
+                "category": "k-content",
+                "slug": "korea-indonesia-film-festival-2019",
+                "content": "2019 Korea Indonesia Film Festival(KIFF) adalah sebuah acara tahunan yang memutarkan berbagai film Korea dan Indonesia di bukan hanya di Jakarta tetapi juga di kota lain-lain.<br/><br/>Visi dan misi dari Korea Indonesia Fillm Festival adalah memperkenalkan kehidupan sosial kebudayaan masyarakat Korea Selatan, begitu juga sebaliknya untuk Indonesia melalui berbagai genre film. Untuk menambah gembira untuk para penggemar film Korea, 2019 KIFF akan dibintangi oleh salah satu bintang film Korea.",
+                "twitter_link" : "https://twitter.com/festfilmkorea",
+                "facebook_link" : "https://www.facebook.com/CGV.ID/",
+                "instagram_link" : "https://www.instagram.com/festfilmkorea/"
+            }
+        ]
+    }
+}

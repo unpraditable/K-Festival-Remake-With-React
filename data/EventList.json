@@ -1,0 +1,61 @@
+{
+    "data": {
+        "event_list": [
+            {
+                "id": 1,
+                "date" : "17 <span class=\"event-date-month\">SEPT</span> <br/> - <br/> 31 <span class=\"event-date-month\">OCT</span> ",
+                "title": "Korean Bazaar - On Sale",
+                "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/poster_thumb_koreanbazaar.jpg",
+                "location": "Central Park, Promenade Laguna",
+                "location_map": "https://g.page/CentralParkMallJkt",
+                "category": "k-exhibition",
+                "slug": "korean-bazaar-on-sale",
+                "excerpt": "Menampilkan dan memperkenalkan produk-produk eksklusif asli dari Korea. Customer dapat melihat dan mencoba produk-produk dari brand-brand terlaris di Korea seperti MARHEN.J, MLB, SOMEBYMI, KLAVUU, berbagai macam album K-Pop, BT21, dan 400 brand Korea lainnya langsung di offline booth iLotte."
+            },
+            {
+                "id": 2,
+                "date" : "01 - 31 <span class=\"event-date-month\">OCT</span>",
+                "title": "Korean Food Festival 'Korea Dekat Di Hati'",
+                "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/poster_thumb_dekatdihati.jpg",
+                "location": "Legenda Wisata",
+                "location_map": "https://goo.gl/maps/4YeixvACHtQbsCAP8",
+                "category": "k-food",
+                "slug": "korean-food-festival",
+                "excerpt": "Nikmati aneka ragam produk makanan Korea, seperti mie instan, minuman, camilan, hingga buah-buahan."
+            },
+            {
+                "id": 3,
+                "date" : "03 - 06 <span class=\"event-date-month\">OCT</span>",
+                "title": "K-Content Expo",
+                "image": "https://ecm-prd-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DK-Content%20Expo.jpeg",
+                "location": "Central Park Mall",
+                "location_map": "https://g.page/CentralParkMallJkt",
+                "category": "k-content",
+                "slug": "k-content-expo-2019",
+                "excerpt": "Korea Creative Content Agency (KOCCA) dengan bangga memperkenalkan siaran, game, animasi / karakter Korea yang berkualitas kepada Indonesia."
+            },
+            {
+                "id": 4,
+                "date" : "03 - 13 <span class=\"event-date-month\">OCT</span>",
+                "title": "Hangul Day (Hari Huruf Korea)",
+                "image": "https://ecm-stg-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DHangul%20Day.jpg",
+                "location": "Korean Culture Center",
+                "location_map": "https://goo.gl/maps/syB4euKP23G6jhSN6",
+                "category": "k-content",
+                "slug": "hangul-day",
+                "excerpt": "Hari Hangeul adalah hari untuk memperingati penciptaan Hangeul atau huruf asli Korea."
+            },
+            {
+                "id": 5,
+                "date" : "09 <span class=\"event-date-month\">OCT</span>",
+                "title": "Korea-Indonesia Film Festival 2019",
+                "image": "https://ecm-stg-pub.s3.ap-southeast-1.amazonaws.com/kfestival/assets/img/events/%5BPoster%5DKorea%20Indonesia%20Film%20Festival.jpg",
+                "location": "CGV Cinemas",
+                "location_map": "https://goo.gl/maps/NvpX6iwcuPbRUswy8",
+                "category": "k-content",
+                "slug": "korea-indonesia-film-festival-2019",
+                "excerpt": "2019 Korea Indonesia Film Festival(KIFF) adalah sebuah acara tahunan yang memutarkan berbagai film Korea dan Indonesia di bukan hanya di Jakarta tetapi juga di kota lain-lain."
+            }
+        ]
+    }
+}

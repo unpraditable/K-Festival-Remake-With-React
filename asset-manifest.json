@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/K-Festival-Remake-With-React/static/css/main.6fe6ff29.chunk.css",
+    "main.js": "/K-Festival-Remake-With-React/static/js/main.4f39ea02.chunk.js",
+    "main.js.map": "/K-Festival-Remake-With-React/static/js/main.4f39ea02.chunk.js.map",
+    "runtime-main.js": "/K-Festival-Remake-With-React/static/js/runtime-main.967a113b.js",
+    "runtime-main.js.map": "/K-Festival-Remake-With-React/static/js/runtime-main.967a113b.js.map",
+    "static/css/2.58c81cd9.chunk.css": "/K-Festival-Remake-With-React/static/css/2.58c81cd9.chunk.css",
+    "static/js/2.952d62ab.chunk.js": "/K-Festival-Remake-With-React/static/js/2.952d62ab.chunk.js",
+    "static/js/2.952d62ab.chunk.js.map": "/K-Festival-Remake-With-React/static/js/2.952d62ab.chunk.js.map",
+    "index.html": "/K-Festival-Remake-With-React/index.html",
+    "precache-manifest.b6c02e312928bb94003b26239e7e81cf.js": "/K-Festival-Remake-With-React/precache-manifest.b6c02e312928bb94003b26239e7e81cf.js",
+    "service-worker.js": "/K-Festival-Remake-With-React/service-worker.js",
+    "static/css/2.58c81cd9.chunk.css.map": "/K-Festival-Remake-With-React/static/css/2.58c81cd9.chunk.css.map",
+    "static/css/main.6fe6ff29.chunk.css.map": "/K-Festival-Remake-With-React/static/css/main.6fe6ff29.chunk.css.map",
+    "static/media/style.css": "/K-Festival-Remake-With-React/static/media/PoetsenOne-Regular.e7f249e7.ttf",
+    "static/media/slick-theme.css": "/K-Festival-Remake-With-React/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.967a113b.js",
+    "static/css/2.58c81cd9.chunk.css",
+    "static/js/2.952d62ab.chunk.js",
+    "static/css/main.6fe6ff29.chunk.css",
+    "static/js/main.4f39ea02.chunk.js"
+  ]
+}
